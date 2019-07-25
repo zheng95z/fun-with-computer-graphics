@@ -1,17 +1,23 @@
 # fun-with-graphics
 这里整理了图形学相关的高校课程、书籍、教程、文章、博客、资源、开源项目。
 
+[TOC]
+
 ## Rendering
+
+### Courses
 
 | Courses                                                      |                                                              |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [TU Wien Rendering/Ray Tracing Course](https://www.cg.tuwien.ac.at/courses/Rendering/VU.SS2018.html)<br>([YouTube](https://www.youtube.com/watch?v=pjc1QAI6zS0&list=PLujxSBD-JXgnGmsn7gEyN28P1DnRZG7qi), [哔哩哔哩](https://www.bilibili.com/video/av39918593)) | 一门关于真实感渲染、光线追踪和全局光照技术的课程             |
-| [Computer Graphics](http://15462.courses.cs.cmu.edu/spring2019/) | CMU 15-462/662                                               |
+| [TU Wien Rendering/Ray Tracing Course](https://www.cg.tuwien.ac.at/courses/Rendering/VU.SS2018.html)<br>([YouTube](https://www.youtube.com/watch?v=pjc1QAI6zS0&list=PLujxSBD-JXgnGmsn7gEyN28P1DnRZG7qi), [哔哩哔哩](https://www.bilibili.com/video/av39918593)) | 一门关于真实感渲染、光线追踪和全局光照技术的课程 |
+| [Computer Graphics](http://15462.courses.cs.cmu.edu/spring2019/) | CMU 15-462/662 |
 | [Image Synthesis Techniques](http://graphics.stanford.edu/courses/cs348b/) | Stanford CS348b<br>This course provides a broad overview of the theory and practice of making photo-realistic imagery. |
-| [Introduction to Computer Graphics and Imaging](https://web.stanford.edu/class/cs148/lectures.html) | Stanford CS148                                               |
+| [Introduction to Computer Graphics and Imaging](https://web.stanford.edu/class/cs148/lectures.html) | Stanford CS148 |
 | [Real-Time High Quality Rendering](http://www.cs.ucsb.edu/~lingqi/teaching/cs291a.html) | UCSB CS291A<br>Topics will cover programmable shaders, real-time shadows, interactive global illumination, image-based rendering, precomputed rendering, adaptive sampling and reconstruction, and real-time ray tracing. |
-| [Physically Based Rendering and Material Appearance Modelling](http://courses.compute.dtu.dk/02941/) | DTU 02941                                                    |
-| [Pixar in a Box: Rendering](https://www.khanacademy.org/partner-content/pixar/rendering) | Pixar 出品，渲染的「科普向」教程                             |
+| [Physically Based Rendering and Material Appearance Modelling](http://courses.compute.dtu.dk/02941/) | DTU 02941 |
+| [Pixar in a Box: Rendering](https://www.khanacademy.org/partner-content/pixar/rendering) | Pixar 出品，渲染的「科普向」教程 |
+
+### Books
 
 | Books                                                        |                                                              |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -28,9 +34,11 @@
 | 《Ray Tracing Gems》<br>([Book website](http://raytracinggems.com/), [amazon](https://www.amazon.com/Ray-Tracing-Gems-High-Quality-Real-Time/dp/1484244265?tag=realtimerenderin)) | Nvidia 出品，电子版免费                                      |
 | [《Real-Time Rendering 3rd》提炼总结](https://github.com/QianMo/Real-Time-Rendering-3rd-CN-Summary-Ebook) |                                                              |
 
+### Tutorials
+
 | Tutorials                                                    |                                                              |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Learn OpenGL<br>([英文原版](), [中文版](https://learnopengl-cn.github.io/)) | OpenGL                                                       |
+| Learn OpenGL<br>([英文原版](), [中文版](https://learnopengl-cn.github.io/)) | OpenGL |
 | [Learn Vulkan](https://learnvulkan.com/book/)                | Vulkan                                                       |
 | [Vulkan Tutorial](https://vulkan-tutorial.com/)              | Vulkan                                                       |
 | [The Book of Shaders](https://thebookofshaders.com/)         | Shader                                                       |
@@ -42,6 +50,8 @@
 | [Daily Pathtracer](http://aras-p.info/blog/2018/03/28/Daily-Pathtracer-Part-0-Intro/) | by [Aras Pranckevičius](http://aras-p.info/)                 |
 | [Tiny renderer or how OpenGL works](https://github.com/ssloy/tinyrenderer/wiki) | software rendering in 500 lines of code |
 | [Rasterization in One Weekend](https://tayfunkayhan.wordpress.com/2018/11/24/rasterization-in-one-weekend/) | by [Tayfun Kayhan](https://tayfunkayhan.wordpress.com/)      |
+
+### Articles
 
 | Articles                                                     |                                                         |
 | ------------------------------------------------------------ | ------------------------------------------------------- |
@@ -55,6 +65,8 @@
 | [How to start learning graphics programming?](https://interplayoflight.wordpress.com/2018/07/08/how-to-start-learn-graphics-programming/amp/) | by Kostas Anagnostou                                    |
 | [基于物理着色：BRDF](https://zhuanlan.zhihu.com/p/21376124)  | by [Maple](https://www.zhihu.com/people/maple)          |
 | [金属，塑料，傻傻分不清楚](https://zhuanlan.zhihu.com/p/21961722?refer=highwaytographics) | by [叛逆者](https://www.zhihu.com/people/minmin.gong)   |
+
+### Blogs
 
 | Blogs                                                        |                                                              |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -78,6 +90,8 @@
 | [HUMUS](http://humus.name/)                                  |                                                              |
 | [Icare3D Blog](https://blog.icare3d.org/)                    |                                                              |
 
+### Resources pages
+
 | Resources pages                                              |                                                              |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [Real-Time Rendering Resources](http://www.realtimerendering.com/) | 《Real-Time Rendering》配套网站，相关资源丰富                |
@@ -90,6 +104,8 @@
 | [Rendering Resources](https://benedikt-bitterli.me/resources/) | This page offers 32 different 3D scenes that you can use for free in your rendering research, publications and classes. |
 | [terkelg/awesome-creative-coding](https://github.com/terkelg) | Creative Coding: Generative Art, Data visualization, Interaction Design, Resources |
 | [eug/awesome-opengl](https://github.com/eug)                 | A curated list of awesome OpenGL libraries, debuggers and resources |
+
+### Projects
 
 | Projects                                                     |                                                              |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -105,11 +121,15 @@
 
 ## Game Engines
 
+### Tutorials
+
 | Tutorials                                                    |                               |
 | ------------------------------------------------------------ | ----------------------------- |
 | Massive UE4 Tutorial Playlist<br/>[Youtube](https://www.youtube.com/watch?v=QMsFxzYzFJ8&list=PLZlv_N0_O1gaCL2XjKluO7N2Pmmw9pvhE) | UnrealEngine 4<br/>官方入门教程，很全面 |
 | [C# and Shader Tutorials for the Unity Engine](https://catlikecoding.com/unity/tutorials/) | Unity3D, Shader |
 |  |                               |
+
+### Books
 
 | Books                                                        |                 |
 | ------------------------------------------------------------ | --------------- |
@@ -117,6 +137,8 @@
 | 《Unity Shader 入门精要》<br/>[豆瓣读书](https://book.douban.com/subject/26821639/) | Unity3D, Shader |
 |                                                              |                 |
 |                                                              |                 |
+
+### Websites
 
 | Websites                                                     |                |
 | ------------------------------------------------------------ | -------------- |
