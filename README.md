@@ -102,6 +102,7 @@
 | [MERL BRDF Database](http://www.merl.com/brdf/)              | The MERL BRDF database contains reflectance functions of 100 different materials |
 | [minpt](https://github.com/hi2p-perim/minpt)                 | A path tracer in 300 lines of C++ |
 | [yocto-gl](https://github.com/xelatihy/yocto-gl)             | Tiny C++ Libraries for Data-Driven Physically-based Graphics |
+|[id-Software](https://github.com/id-Software)                 | id-Software公司的所有游戏的开源代码 |  
 
 ## Game Engines
 
