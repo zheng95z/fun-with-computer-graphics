@@ -7,6 +7,8 @@
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [TU Wien Rendering/Ray Tracing Course](https://www.cg.tuwien.ac.at/courses/Rendering/VU.SS2018.html)<br>([YouTube](https://www.youtube.com/watch?v=pjc1QAI6zS0&list=PLujxSBD-JXgnGmsn7gEyN28P1DnRZG7qi), [哔哩哔哩](https://www.bilibili.com/video/av39918593)) | 一门关于真实感渲染、光线追踪和全局光照技术的课程             |
 | [Computer Graphics](http://15462.courses.cs.cmu.edu/spring2019/) | CMU 15-462/662                                               |
+| [COS 426 Computer Graphics](https://www.cs.princeton.edu/courses/archive/spring14/cos426/syllabus.php) | Princeton COS 426: Computer Graphics (a bit more about the fundamental theory behind CG.) |
+| [COS 526 Advanced Computer Graphics](https://www.cs.princeton.edu/courses/archive/fall14/cos526/syllabus.php) | Princeton COS 426: Advanced Computer Graphics.               |
 | [Image Synthesis Techniques](http://graphics.stanford.edu/courses/cs348b/) | Stanford CS348b<br>This course provides a broad overview of the theory and practice of making photo-realistic imagery. |
 | [Introduction to Computer Graphics and Imaging](https://web.stanford.edu/class/cs148/lectures.html) | Stanford CS148                                               |
 | [Real-Time High Quality Rendering](http://www.cs.ucsb.edu/~lingqi/teaching/cs291a.html) | UCSB CS291A<br>Topics will cover programmable shaders, real-time shadows, interactive global illumination, image-based rendering, precomputed rendering, adaptive sampling and reconstruction, and real-time ray tracing. |
@@ -32,15 +34,16 @@
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | Learn OpenGL<br>([英文原版](), [中文版](https://learnopengl-cn.github.io/)) | OpenGL                                                       |
 | [Learn Vulkan](https://learnvulkan.com/book/)                | Vulkan                                                       |
+| [Joey de Vries OpenGL Tutorials](http://learnopengl.com/)    | OpenGL                                                       |
 | [Vulkan Tutorial](https://vulkan-tutorial.com/)              | Vulkan                                                       |
 | [The Book of Shaders](https://thebookofshaders.com/)         | Shader                                                       |
-| [3d-game-shaders-for-beginners](https://github.com/lettier/3d-game-shaders-for-beginners)         | Shader                  |
+| [3d-game-shaders-for-beginners](https://github.com/lettier/3d-game-shaders-for-beginners) | Shader                                                       |
 | [The Graphics Codex](http://graphicscodex.com/)              | by [Morgan McGuire](https://twitter.com/CasualEffects)，IOS 上可以找到同名 App |
-| [用JavaScript玩转计算机图形学(一)光线追踪入门](https://www.cnblogs.com/miloyip/archive/2010/03/29/1698953.html)         | by [Milo Yip](https://www.cnblogs.com/miloyip) |
+| [用JavaScript玩转计算机图形学(一)光线追踪入门](https://www.cnblogs.com/miloyip/archive/2010/03/29/1698953.html) | by [Milo Yip](https://www.cnblogs.com/miloyip)               |
 | 用 C 语言画光<br>([1](https://zhuanlan.zhihu.com/p/30745861), [2](https://zhuanlan.zhihu.com/p/30748318), [3](https://zhuanlan.zhihu.com/p/30816284), [4](https://zhuanlan.zhihu.com/p/30961545), [5](https://zhuanlan.zhihu.com/p/31127076), [6](https://zhuanlan.zhihu.com/p/31534769), [7](https://zhuanlan.zhihu.com/p/31901449)) | by [Milo Yip](https://www.zhihu.com/people/miloyip)          |
 | [Scratchapixel 2.0](http://www.scratchapixel.com/index.php)  | 32 lessons, 166 chapters, 450,000 words, C++ source code     |
 | [Daily Pathtracer](http://aras-p.info/blog/2018/03/28/Daily-Pathtracer-Part-0-Intro/) | by [Aras Pranckevičius](http://aras-p.info/)                 |
-| [Tiny renderer or how OpenGL works](https://github.com/ssloy/tinyrenderer/wiki) | software rendering in 500 lines of code |
+| [Tiny renderer or how OpenGL works](https://github.com/ssloy/tinyrenderer/wiki) | software rendering in 500 lines of code                      |
 | [Rasterization in One Weekend](https://tayfunkayhan.wordpress.com/2018/11/24/rasterization-in-one-weekend/) | by [Tayfun Kayhan](https://tayfunkayhan.wordpress.com/)      |
 
 | Articles                                                     |                                                         |
@@ -102,7 +105,7 @@
 | [MERL BRDF Database](http://www.merl.com/brdf/)              | The MERL BRDF database contains reflectance functions of 100 different materials |
 | [minpt](https://github.com/hi2p-perim/minpt)                 | A path tracer in 300 lines of C++ |
 | [yocto-gl](https://github.com/xelatihy/yocto-gl)             | Tiny C++ Libraries for Data-Driven Physically-based Graphics |
-|[id-Software](https://github.com/id-Software)                 | id-Software公司的所有游戏的开源代码 |  
+|[id-Software](https://github.com/id-Software)                 | id-Software公司的所有游戏的开源代码 |
 
 ## Game Engines
 
