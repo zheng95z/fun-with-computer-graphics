@@ -127,7 +127,7 @@ Hi! You have just found *fun-with-graphics*.
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [Kun Xu (徐昆)](https://cg.cs.tsinghua.edu.cn/people/~kun/)  | An associate professor at Graphics and Geometric Computing Group, Tsinghua Univeristy |
 | [Lingqi Yan (闫令琪)](http://www.cs.ucsb.edu/~lingqi/?tdsourcetag=s_pctim_aiomsg#bio) | An Assistant Professor at UC Santa Barbara                   |
-| [Ligang Liu (刘利刚)](http://staff.ustc.edu.cn/~lgliu/)      |                                                              |
+| [Ligang Liu (刘利刚)](http://staff.ustc.edu.cn/~lgliu/)      | A Professor at Graphics & Geometric Computing Laboratory (GCL), school of mathematical sciences USTC.                          |
 | [Wenzel Jakob](https://people.epfl.ch/265226)                | An assistant professor leading the Realistic Graphics Lab at EPFL's School of Computer and Communication Sciences. |
 | [Pradeep Sen](https://web.ece.ucsb.edu/~psen/)               | A Professor at UC Santa Barbara                              |
 | [Thomas Müller](https://tom94.net/index.php)                 | A senior research scientist at NVIDIA Zürich                 |
