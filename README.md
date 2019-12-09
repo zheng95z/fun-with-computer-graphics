@@ -1,11 +1,44 @@
-# fun-with-graphics
+# <span id="head1"> fun-with-graphics</span>
+
 Hi! You have just found *fun-with-graphics*.
 
 这里主要整理了图形学相关的高校课程、书籍、教程、文章、博客、资源、研究者主页、实验室主页、视频频道、开源项目、网站等。
 
-## Computer Graphics (Especially, Rendering)
+- [ fun-with-graphics](#head1)
+  - [Computer Graphics (Especially, Rendering)](#head2)
+    - [ Courses](#head3)
+    - [ Books](#head4)
+    - [ Tutorials](#head5)
+    - [ Articles](#head6)
+    - [ Blogs](#head7)
+    - [Resources pages](#head8)
+    - [ Researchers](#head9)
+    - [ Labs](#head10)
+    - [YouTube Channels](#head11)
+    - [ Projects](#head12)
+    - [ Websites](#head13)
+  - [Game Engines](#head14)
+    - [ Tutorials](#head15)
+    - [ Books](#head16)
+    - [ Websites](#head17)
+  - [ Math](#head18)
+    - [ Courses](#head19)
+    - [ Books](#head20)
+  - [Machine Learning](#head21)
+    - [ Courses](#head22)
+    - [ Books](#head23)
+    - [ Tutorials](#head24)
+  - [ Research](#head25)
+    - [ Courses](#head26)
+    - [ Books](#head27)
+    - [ Articles](#head28)
+    - [ Tools](#head29)
 
-### Courses
+
+
+## <span id="head2">Computer Graphics (Especially, Rendering)</span>
+
+### <span id="head3"> Courses</span>
 
 | Courses                                                      |                                                              |
 | :----------------------------------------------------------- | ------------------------------------------------------------ |
@@ -24,7 +57,7 @@ Hi! You have just found *fun-with-graphics*.
 | [Physically Based Rendering and Material Appearance Modelling](http://courses.compute.dtu.dk/02941/) | **DTU 02941**<br>This course takes its outset in the appearance of real world materials. The goal is to get as close as possible to replicating the appearance of real materials by computer graphical rendering based on mathematical/physical models. |
 | [Interactive 3D Graphics by Autodesk](https://www.udacity.com/course/interactive-3d-graphics--cs291) | **Udacity CS291**<br>This class will teach you about the basic principles of 3D computer graphics: meshes, transforms, cameras, materials, lighting, and animation.<br>Teaching by [@Eric Haines](https://erich.realtimerendering.com/) |
 
-### Books
+### <span id="head4"> Books</span>
 
 | Books                                                        |                                                              |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -40,7 +73,7 @@ Hi! You have just found *fun-with-graphics*.
 | 《Ray Tracing: the Rest of Your Life》<br/>([Amazon](https://smile.amazon.com/Ray-Tracing-Next-Week-Minibooks-ebook/dp/B01CO7PQ8C?tag=realtimerenderin), [code](https://github.com/petershirley/raytracingtherestofyourlife/releases), [read for free](https://raytracing.github.io/books/RayTracingTheRestOfYourLife.html)) | Peter Shirley's Ray Tracing 三部曲其三                       |
 | 《Ray Tracing Gems》<br>([Book website](http://raytracinggems.com/), [amazon](https://www.amazon.com/Ray-Tracing-Gems-High-Quality-Real-Time/dp/1484244265?tag=realtimerenderin)) | Nvidia 出品，电子版免费                                      |
 
-### Tutorials
+### <span id="head5"> Tutorials</span>
 
 | Tutorials                                                    |                                                              |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -60,7 +93,7 @@ Hi! You have just found *fun-with-graphics*.
 | [Tiny renderer or how OpenGL works](https://github.com/ssloy/tinyrenderer/wiki) | software rendering in 500 lines of code                      |
 | [Rasterization in One Weekend](https://tayfunkayhan.wordpress.com/2018/11/24/rasterization-in-one-weekend/) | by [@Tayfun Kayhan](https://tayfunkayhan.wordpress.com/)     |
 
-### Articles
+### <span id="head6"> Articles</span>
 
 | Articles                                                     |                                                           |
 | ------------------------------------------------------------ | --------------------------------------------------------- |
@@ -77,7 +110,7 @@ Hi! You have just found *fun-with-graphics*.
 | [基于物理着色：BRDF](https://zhuanlan.zhihu.com/p/21376124)  | by [@Maple](https://www.zhihu.com/people/maple)           |
 | [金属，塑料，傻傻分不清楚](https://zhuanlan.zhihu.com/p/21961722?refer=highwaytographics) | by [@叛逆者](https://www.zhihu.com/people/minmin.gong)    |
 
-### Blogs
+### <span id="head7"> Blogs</span>
 
 | Blogs                                                        |                                                              |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -95,7 +128,7 @@ Hi! You have just found *fun-with-graphics*.
 | [HUMUS](http://humus.name/)                                  |                                                              |
 | [Icare3D Blog](https://blog.icare3d.org/)                    |                                                              |
 
-### Resources pages
+### <span id="head8">Resources pages</span>
 
 | Resources pages                                              |                                                              |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -121,7 +154,7 @@ Hi! You have just found *fun-with-graphics*.
 | [MIT: Most Visited Courses](https://ocw.mit.edu/courses/most-visited-courses/) |                                                              |
 | [Real-time Rendering Blogs](http://svenandersson.se/2014/realtime-rendering-blogs.html) |                                                              |
 
-### Researchers
+### <span id="head9"> Researchers</span>
 
 | Researchers                                                  |                                                              |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -137,7 +170,7 @@ Hi! You have just found *fun-with-graphics*.
 | [Benedikt Bitterli](https://benedikt-bitterli.me/index.html) | A PhD at Dartmouth College.                                  |
 | [Morgan McGuire](https://www.cs.williams.edu/~morgan/#courses) | A Professor of Computer Science at Williams College          |
 
-### Labs
+### <span id="head10"> Labs</span>
 
 | Labs                                                         |               |
 | ------------------------------------------------------------ | ------------- |
@@ -149,7 +182,7 @@ Hi! You have just found *fun-with-graphics*.
 | [Carnegie Mellon Graphics Lab](http://graphics.cs.cmu.edu/)  | at CMU        |
 | [MIT Computer Graphics Group](http://graphics.csail.mit.edu/) | at MIT        |
 
-### YouTube Channels
+### <span id="head11">YouTube Channels</span>
 
 | YouTube Channels                                             |                                                              |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -159,7 +192,7 @@ Hi! You have just found *fun-with-graphics*.
 | [ACMSIGGRAPH](https://www.youtube.com/channel/UCbaxUExGKrH2zxY4AkY9wCg) |                                                              |
 | [MIT OpenCourseWare](https://www.youtube.com/user/MIT)       |                                                              |
 
-### Projects
+### <span id="head12"> Projects</span>
 
 | Projects                                                     |                                                              |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -178,39 +211,39 @@ Hi! You have just found *fun-with-graphics*.
 | [The Tungsten Renderer](https://github.com/tunabrain/tungsten) | Tungsten is a physically based renderer originally written for the [yearly renderer competition at ETH](http://graphics.ethz.ch/teaching/imsynth14/competition/competition.php) |
 | [Scotty3D](https://github.com/cmu462/Scotty3D)               | 3D graphics software for mesh editing, path tracing, and animation |
 
-### Websites
+### <span id="head13"> Websites</span>
 
 | Websites                                                     |                                              |
 | ------------------------------------------------------------ | -------------------------------------------- |
 | [Shadertoy](https://www.shadertoy.com/)                      | 「构建和分享世界上你最喜欢的着色器并受启发」 |
 | [CSRankings: Computer Science Rankings](http://csrankings.org/#/index?graph&world) |                                              |
 
-## Game Engines
+## <span id="head14">Game Engines</span>
 
-### Tutorials
+### <span id="head15"> Tutorials</span>
 
-| Tutorials                                                    |                               |
-| ------------------------------------------------------------ | ----------------------------- |
+| Tutorials                                                    |                                         |
+| ------------------------------------------------------------ | --------------------------------------- |
 | Massive UE4 Tutorial Playlist<br/>[Youtube](https://www.youtube.com/watch?v=QMsFxzYzFJ8&list=PLZlv_N0_O1gaCL2XjKluO7N2Pmmw9pvhE) | UnrealEngine 4<br/>官方入门教程，很全面 |
-| [C# and Shader Tutorials for the Unity Engine](https://catlikecoding.com/unity/tutorials/) | Unity3D, Shader |
+| [C# and Shader Tutorials for the Unity Engine](https://catlikecoding.com/unity/tutorials/) | Unity3D, Shader                         |
 
-### Books
+### <span id="head16"> Books</span>
 
-| Books                                                        |                 |
-| ------------------------------------------------------------ | --------------- |
-| 《游戏引擎架构》<br>([豆瓣读书](https://book.douban.com/subject/25815142/), [book website](https://www.gameenginebook.com/)) | 《游戏引擎架构》同时涵盖游戏引擎软件开发的理论及实践，并对多方面的题目进行探讨|
-| 《Unity Shader 入门精要》<br/>[豆瓣读书](https://book.douban.com/subject/26821639/) | Unity3D, Shader |
+| Books                                                        |                                                              |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 《游戏引擎架构》<br>([豆瓣读书](https://book.douban.com/subject/25815142/), [book website](https://www.gameenginebook.com/)) | 《游戏引擎架构》同时涵盖游戏引擎软件开发的理论及实践，并对多方面的题目进行探讨 |
+| 《Unity Shader 入门精要》<br/>[豆瓣读书](https://book.douban.com/subject/26821639/) | Unity3D, Shader                                              |
 
-### Websites
+### <span id="head17"> Websites</span>
 
 | Websites                                                     |                |
 | ------------------------------------------------------------ | -------------- |
 | UnrealEngine的官方视频主页<br>[Youtube](https://www.youtube.com/channel/UCBobmJyzsJ6Ll7UbfhI4iwQ)<br>[优酷](http://i.youku.com/i/UMzE2NDk2OTIw) | UnrealEngine 4 |
 | [Unity 官方中文论坛](http://forum.china.unity3d.com/forum.php) | Unity3D        |
 
-## Math
+## <span id="head18"> Math</span>
 
-### Courses
+### <span id="head19"> Courses</span>
 
 | Courses                                                      |      |
 | ------------------------------------------------------------ | ---- |
@@ -220,7 +253,7 @@ Hi! You have just found *fun-with-graphics*.
 | [可汗学院公开课：线性代数](http://open.163.com/newview/movie/courseintro?newurl=%2Fspecial%2FKhan%2Flinearalgebra.html) |      |
 | [MIT Mathematics](https://ocw.mit.edu/courses/mathematics/)  |      |
 
-### Books
+### <span id="head20"> Books</span>
 
 | Books |      |
 | ----- | ---- |
@@ -231,9 +264,9 @@ Hi! You have just found *fun-with-graphics*.
 | [Immersive Linear Algebra](http://immersivemath.com/) | "The world's first linear algebra book with fully interactive figures." |
 | [BetterExplained](https://betterexplained.com/)       | "Finally understand math, don't memorize it."                |
 
-## Machine Learning
+## <span id="head21">Machine Learning</span>
 
-### Courses
+### <span id="head22"> Courses</span>
 
 | Courses                                                      |      |
 | ------------------------------------------------------------ | ---- |
@@ -241,37 +274,41 @@ Hi! You have just found *fun-with-graphics*.
 | 吴恩达深度学习专项课程([Coursera](https://www.coursera.org/specializations/deep-learning)) |      |
 | 林轩石机器学习系列([课程主页](https://www.csie.ntu.edu.tw/~htlin/mooc/)) |      |
 
+### <span id="head23"> Books</span>
+
 | Books                                             |      |
 | ------------------------------------------------- | ---- |
 | [《动手学深度学习》](http://zh.d2l.ai/index.html) |      |
+
+### <span id="head24"> Tutorials</span>
 
 | Tutorials |      |
 | --------- | ---- |
 |           |      |
 
-## Research
+## <span id="head25"> Research</span>
 
-### Courses
+### <span id="head26"> Courses</span>
 
 | Courses                                                      |                                                              |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [Writing in the Sciences](https://www.coursera.org/learn/sciwrite) | This course teaches scientists to become more effective writers, using practical examples and exercises. Topics include: principles of good writing, tricks for writing faster and with less anxiety, the format of a scientific manuscript, peer review, grant writing, ethical issues in scientific publication, and writing for general audiences. |
 | [Academic English](https://www.coursera.org/specializations/academic-english) | Transform Your Writing Skills. Prepare for college-level writing and research in just four courses. |
 
-### Books
+### <span id="head27"> Books</span>
 
 | Books                                                       |                                             |
 | ----------------------------------------------------------- | ------------------------------------------- |
 | [简单粗暴 LaTeX](https://github.com/wklchris/Note-by-LaTeX) | by [@Chris Wu](https://github.com/wklchris) |
 
-### Articles
+### <span id="head28"> Articles</span>
 
 | Tools                                                        |                                                              |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [Common mistakes in technical writing](https://cs.dartmouth.edu/~wjarosz/writing.html) | by [@Wojciech Jarosz](https://cs.dartmouth.edu/~wjarosz/index.html) |
 | [Notes on writing](http://people.csail.mit.edu/fredo/PUBLI/writing.pdf) | by [@Fredo Durand,](http://people.csail.mit.edu/fredo/)      |
 
-### Tools
+### <span id="head29"> Tools</span>
 
 | Tools                                                        |                                                              |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
