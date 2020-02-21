@@ -24,15 +24,16 @@ Hi! You have just found *fun-with-graphics*.
   - [ Math](#head18)
     - [ Courses](#head19)
     - [ Books](#head20)
-  - [Machine Learning](#head21)
-    - [ Courses](#head22)
-    - [ Books](#head23)
-    - [ Tutorials](#head24)
-  - [ Research](#head25)
-    - [ Courses](#head26)
-    - [ Books](#head27)
-    - [ Articles](#head28)
-    - [ Tools](#head29)
+    - [ Tutorials](#head21) 
+  - [Machine Learning](#head22)
+    - [ Courses](#head23)
+    - [ Books](#head24)
+    - [ Tutorials](#head25)
+  - [ Research](#head26)
+    - [ Courses](#head27)
+    - [ Books](#head28)
+    - [ Articles](#head29)
+    - [ Tools](#head30)
 
 
 
@@ -42,6 +43,7 @@ Hi! You have just found *fun-with-graphics*.
 
 | Courses                                                      |                                                              |
 | :----------------------------------------------------------- | ------------------------------------------------------------ |
+| [GAMES101: 现代计算机图形学入门](https://sites.cs.ucsb.edu/~lingqi/teaching/games101.html) | **GAMES101**<br>本课程将全面而系统地介绍现代计算机图形学的四大组成部分：（1）光栅化成像，（2）几何表示，（3）光的传播理论，以及（4）动画与模拟。每个方面都会从基础原理出发讲解到实际应用，并介绍前沿的理论研究。通过本课程，你可以学习到计算机图形学背后的数学和物理知识，并锻炼实际的编程能力。<br>Teaching by [@Lingqi Yan](https://sites.cs.ucsb.edu/~lingqi/). |
 | [TU Wien Rendering/Ray Tracing Course](https://www.cg.tuwien.ac.at/courses/Rendering/VU.SS2018.html)<br>([YouTube](https://www.youtube.com/watch?v=pjc1QAI6zS0&list=PLujxSBD-JXgnGmsn7gEyN28P1DnRZG7qi), [哔哩哔哩](https://www.bilibili.com/video/av39918593)) | **TU WIEN Rendering**<br>This course aims to give an overview of basic and state-of-the-art methods of rendering. Offline methods such as ray and path tracing, photon mapping and many other algorithms are introduced and various refinement are explained. |
 | [Introduction to Computer Graphics](https://sites.cs.ucsb.edu/~lingqi/teaching/cs180.html) | **UCSB CS180**<br>This course is an introduction to the foundations of three-dimensional computer graphics. Topics covered include 2D and 3D transformations, Rasterization based interactive 3D graphics, shading and reflectance models, texture mapping, geometric modeling using Bézier and B-Spline curves, ray tracing, and animation. There will be an emphasis on both the mathematical and geometric aspects of graphics, as well as the ability to write fully functional 3D graphics programs.<br>Teaching by [@Lingqi Yan](https://sites.cs.ucsb.edu/~lingqi/). |
 | [Real-Time High Quality Rendering](http://www.cs.ucsb.edu/~lingqi/teaching/cs291a.html) | **UCSB CS291A**<br>In this course, we will review the history and some of the recent ideas that seek to bridge the gap between realism and interactivity. We will focus on the use of complex lighting and shading within limited computation time. Specifically, topics will cover programmable shaders, real-time shadows, interactive global illumination, image-based rendering, precomputed rendering, adaptive sampling and reconstruction, and real-time ray tracing.<br/>Teaching by [@Lingqi Yan](https://sites.cs.ucsb.edu/~lingqi/). |
@@ -262,14 +264,16 @@ Hi! You have just found *fun-with-graphics*.
 | ----- | ---- |
 |       |      |
 
+### <span id="head21"> Tutorials</span>
+
 | Tutorials                                             |                                                              |
 | ----------------------------------------------------- | ------------------------------------------------------------ |
 | [Immersive Linear Algebra](http://immersivemath.com/) | "The world's first linear algebra book with fully interactive figures." |
 | [BetterExplained](https://betterexplained.com/)       | "Finally understand math, don't memorize it."                |
 
-## <span id="head21">Machine Learning</span>
+## <span id="head22">Machine Learning</span>
 
-### <span id="head22"> Courses</span>
+### <span id="head23"> Courses</span>
 
 | Courses                                                      |      |
 | ------------------------------------------------------------ | ---- |
@@ -277,41 +281,41 @@ Hi! You have just found *fun-with-graphics*.
 | 吴恩达深度学习专项课程([Coursera](https://www.coursera.org/specializations/deep-learning)) |      |
 | 林轩石机器学习系列([课程主页](https://www.csie.ntu.edu.tw/~htlin/mooc/)) |      |
 
-### <span id="head23"> Books</span>
+### <span id="head24"> Books</span>
 
 | Books                                             |      |
 | ------------------------------------------------- | ---- |
 | [《动手学深度学习》](http://zh.d2l.ai/index.html) |      |
 
-### <span id="head24"> Tutorials</span>
+### <span id="head25"> Tutorials</span>
 
 | Tutorials |      |
 | --------- | ---- |
 |           |      |
 
-## <span id="head25"> Research</span>
+## <span id="head26"> Research</span>
 
-### <span id="head26"> Courses</span>
+### <span id="head27"> Courses</span>
 
 | Courses                                                      |                                                              |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [Writing in the Sciences](https://www.coursera.org/learn/sciwrite) | This course teaches scientists to become more effective writers, using practical examples and exercises. Topics include: principles of good writing, tricks for writing faster and with less anxiety, the format of a scientific manuscript, peer review, grant writing, ethical issues in scientific publication, and writing for general audiences. |
 | [Academic English](https://www.coursera.org/specializations/academic-english) | Transform Your Writing Skills. Prepare for college-level writing and research in just four courses. |
 
-### <span id="head27"> Books</span>
+### <span id="head28"> Books</span>
 
 | Books                                                       |                                             |
 | ----------------------------------------------------------- | ------------------------------------------- |
 | [简单粗暴 LaTeX](https://github.com/wklchris/Note-by-LaTeX) | by [@Chris Wu](https://github.com/wklchris) |
 
-### <span id="head28"> Articles</span>
+### <span id="head29"> Articles</span>
 
 | Tools                                                        |                                                              |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [Common mistakes in technical writing](https://cs.dartmouth.edu/~wjarosz/writing.html) | by [@Wojciech Jarosz](https://cs.dartmouth.edu/~wjarosz/index.html) |
 | [Notes on writing](http://people.csail.mit.edu/fredo/PUBLI/writing.pdf) | by [@Fredo Durand,](http://people.csail.mit.edu/fredo/)      |
 
-### <span id="head29"> Tools</span>
+### <span id="head30"> Tools</span>
 
 | Tools                                                        |                                                              |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
