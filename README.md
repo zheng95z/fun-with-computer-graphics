@@ -6,7 +6,7 @@ Hi! You have just found *fun-with-graphics*.
 
 - [fun-with-graphics](#fwg)
   - [Computer Graphics](#cg)
-    - [:star:Shiny Renderer​s:star:]()
+    - [Shiny Renderers](#cg-renderer)
     - [Courses](#cg-courses)
     - [Books](#cg-books)
     - [Tutorials](#cg-tutorials)
@@ -38,13 +38,13 @@ Hi! You have just found *fun-with-graphics*.
 
 ## <span id="cg">Computer Graphics</span>
 
-### <span id="cg-renderer"> :star:Shiny Renderers:star: </span>
+### <span id="cg-renderer"> Shiny Renderers</span>
 
 > “All we have to do is decide what to do with the time that is given to us." 
 
 *This part is currently updated manually, and will be automatically updated through GitHub Actions in the near future.*
 
-| :star:Shiny Renderers:star:                                  | (Only count :star:10+) [(Back to TOC)](#fwg)                 |
+| ​Shiny Renderers                                              | (Only count :star:10+) [(Back to TOC)](#fwg)                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [mmp](https://github.com/mmp)/**[pbrt-v3](https://github.com/mmp/pbrt-v3)** | The renderer described in the third edition of "Physically Based Rendering: From Theory To Implementation", by Matt Pharr, Wenzel Jakob, and Greg Humphreys.<br>:star:3.2k |
 | [appleseedhq](https://github.com/appleseedhq)/**[appleseed](https://github.com/appleseedhq/appleseed)** | A modern open source rendering engine for animation and visual effects.<br>:star:1.6k |
