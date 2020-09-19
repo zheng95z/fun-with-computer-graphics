@@ -44,7 +44,7 @@ Hi! You have just found *fun-with-graphics*.
 
 *This part is currently updated manually, and will be automatically updated through GitHub Actions in the near future.*
 
-| :star:Shiny Renderers:star:                                  | [(Back to TOC)](#fwg)                                        |
+| :star:Shiny Renderers:star:                                  | (Only count :star:10+) [(Back to TOC)](#fwg)                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [mmp](https://github.com/mmp)/**[pbrt-v3](https://github.com/mmp/pbrt-v3)** | The renderer described in the third edition of "Physically Based Rendering: From Theory To Implementation", by Matt Pharr, Wenzel Jakob, and Greg Humphreys.<br>:star:3.2k |
 | [appleseedhq](https://github.com/appleseedhq)/**[appleseed](https://github.com/appleseedhq/appleseed)** | A modern open source rendering engine for animation and visual effects.<br>:star:1.6k |
@@ -57,9 +57,10 @@ Hi! You have just found *fun-with-graphics*.
 | [AirGuanZ](https://github.com/AirGuanZ)/**[Atrc](https://github.com/AirGuanZ/Atrc)** | "My path tracing lab."<br>:star:175                          |
 | [harskish](https://github.com/harskish)/**[fluctus](https://github.com/harskish/fluctus)** | An interactive OpenCL wavefront path tracer.<br>:star:33     |
 | [shiinamiyuki](https://github.com/shiinamiyuki)/**[AkariRender](https://github.com/shiinamiyuki/AkariRender)** | High Performance CPU/GPU Physically Based Renderer.<br>:star:24 |
+| [g1n0st](https://github.com/g1n0st)/**[AyaRay](https://github.com/g1n0st/AyaRay)** | A Modern C++ Windows-platform physically based renderer developing by Chang Yu.<br>:star:21 |
 | [FaithZL](https://github.com/FaithZL)/**[Paladin](https://github.com/FaithZL/Paladin)** | “Paladin是本人的第一个离线渲染器，代码基本来自于pbrt，当然，并不是无脑抄。” <br>:star:17 |
 | [Mike-Leo-Smith](https://github.com/Mike-Leo-Smith)/**[LuisaRender](https://github.com/Mike-Leo-Smith/LuisaRender)** | High-Performance Renderer on GPU.<br>:star:10                |
-| [neverfelly](https://github.com/neverfelly)/**[misaki-render](https://github.com/neverfelly/misaki-render)** | A modular physically-based photorealistic global illumination renderer.<br>:star:8 |
+| [neverfelly](https://github.com/neverfelly)/**[misaki-render](https://github.com/neverfelly/misaki-render)** | A modular physically-based photorealistic global illumination renderer.<br>:star:10 |
 
 ### <span id="cg-courses"> Courses </span>
 
