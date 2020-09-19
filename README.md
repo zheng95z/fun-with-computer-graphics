@@ -1,50 +1,72 @@
-# <span id="head1"> fun-with-graphics</span>
+# <span id="fwg"> fun-with-graphics</span>
 
 Hi! You have just found *fun-with-graphics*.
 
 这里主要整理了图形学相关的高校课程、书籍、教程、文章、博客、资源、研究者主页、实验室主页、视频频道、开源项目、网站等。
 
-- [ fun-with-graphics](#head1)
-  - [Computer Graphics (Especially, Rendering)](#head2)
-    - [ Courses](#head3)
-    - [ Books](#head4)
-    - [ Tutorials](#head5)
-    - [ Articles](#head6)
-    - [ Blogs](#head7)
-    - [Resources pages](#head8)
-    - [ Researchers](#head9)
-    - [ Labs](#head10)
-    - [YouTube Channels](#head11)
-    - [ Projects](#head12)
-    - [ Websites](#head13)
-  - [Game Engines](#head14)
-    - [ Tutorials](#head15)
-    - [ Books](#head16)
-    - [ Websites](#head17)
-  - [ Math](#head18)
-    - [ Courses](#head19)
-    - [ Books](#head20)
-    - [ Tutorials](#head21) 
-  - [Machine Learning](#head22)
-    - [ Courses](#head23)
-    - [ Books](#head24)
-    - [ Tutorials](#head25)
-  - [ Research](#head26)
-    - [ Courses](#head27)
-    - [ Books](#head28)
-    - [ Articles](#head29)
-    - [ Tools](#head30)
+- [fun-with-graphics](#fwg)
+  - [Computer Graphics](#cg)
+    - [:star:Shiny Renderer​s:star:]()
+    - [Courses](#cg-courses)
+    - [Books](#cg-books)
+    - [Tutorials](#cg-tutorials)
+    - [Articles](#cg-articles)
+    - [Blogs](#cg-blogs)
+    - [Resources pages](#cg-resources)
+    - [Researchers](#cg-researchers)
+    - [Labs](#cg-labs)
+    - [YouTube Channels](#cg-youtube)
+    - [Projects](#cg-projects)
+    - [Websites](#cg-websites)
+  - [Game Engines](#ge)
+    - [Tutorials](#ge-tutorials)
+    - [Books](#ge-books)
+    - [Websites](#ge-websites)
+  - [Math](#math)
+    - [Courses](#math-courses)
+    - [Books](#math-books)
+    - [Tutorials](#math-tutorials) 
+  - [Machine Learning](#ml)
+    - [Courses](#ml-courses)
+    - [Books](#ml-books)
+    - [Tutorials](#ml-turorials)
+  - [Research](#research)
+    - [Courses](#research-courses)
+    - [Books](#research-books)
+    - [Articles](#research-articles)
+    - [Tools](#research-tools)
 
+## <span id="cg">Computer Graphics</span>
 
+### <span id="cg-renderer"> :star:Shiny Renderers:star: </span>
 
-## <span id="head2">Computer Graphics (Especially, Rendering)</span>
+> “All we have to do is decide what to do with the time that is given to us." 
 
-### <span id="head3"> Courses</span>
+*This part is currently updated manually, and will be automatically updated through GitHub Actions in the near future.*
 
-| Courses                                                      |                                                              |
-| :----------------------------------------------------------- | ------------------------------------------------------------ |
+| :star:Shiny Renderers:star:                                  | [(Back to TOC)](#fwg)                                        |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [mmp](https://github.com/mmp)/**[pbrt-v3](https://github.com/mmp/pbrt-v3)** | The renderer described in the third edition of "Physically Based Rendering: From Theory To Implementation", by Matt Pharr, Wenzel Jakob, and Greg Humphreys.<br>:star:3.2k |
+| [appleseedhq](https://github.com/appleseedhq)/**[appleseed](https://github.com/appleseedhq/appleseed)** | A modern open source rendering engine for animation and visual effects.<br>:star:1.6k |
+| [tunabrain](https://github.com/tunabrain)/**[tungsten](https://github.com/tunabrain/tungsten)** | High performance physically based renderer in C++11.<br>:star:1.3k |
+| [mitsuba-renderer](https://github.com/mitsuba-renderer)/**[mitsuba2](https://github.com/mitsuba-renderer/mitsuba2)** | Mitsuba 2 is a research-oriented rendering system written in portable C++17.<br>:star:981 |
+| [mitsuba-renderer](https://github.com/mitsuba-renderer)/**[mitsuba](https://github.com/mitsuba-renderer/mitsuba)** | Mitsuba is a research-oriented rendering system in the style of PBRT, from which it derives much inspiration.<br>:star:673 |
+| [jbikker](https://github.com/jbikker)/**[lighthouse2](https://github.com/jbikker/lighthouse2)** | Lighthouse 2 framework for real-time ray tracing.<br>:star:487 |
+| [mmp](https://github.com/mmp)/**[pbrt-v4](https://github.com/mmp/pbrt-v4)** | This is an early release of pbrt-v4, the rendering system that will be described in the (eventually) forthcoming fourth edition of *Physically Based Rendering: From Theory to Implementation*.<br>:star:402 |
+| [JiayinCao](https://github.com/JiayinCao)/**[SORT](https://github.com/JiayinCao/SORT)** | Simple Open-source Ray Tracer.<br>:star:379                  |
+| [AirGuanZ](https://github.com/AirGuanZ)/**[Atrc](https://github.com/AirGuanZ/Atrc)** | "My path tracing lab."<br>:star:175                          |
+| [harskish](https://github.com/harskish)/**[fluctus](https://github.com/harskish/fluctus)** | An interactive OpenCL wavefront path tracer.<br>:star:33     |
+| [shiinamiyuki](https://github.com/shiinamiyuki)/**[AkariRender](https://github.com/shiinamiyuki/AkariRender)** | High Performance CPU/GPU Physically Based Renderer.<br>:star:24 |
+| [FaithZL](https://github.com/FaithZL)/**[Paladin](https://github.com/FaithZL/Paladin)** | “Paladin是本人的第一个离线渲染器，代码基本来自于pbrt，当然，并不是无脑抄。” <br>:star:17 |
+| [Mike-Leo-Smith](https://github.com/Mike-Leo-Smith)/**[LuisaRender](https://github.com/Mike-Leo-Smith/LuisaRender)** | High-Performance Renderer on GPU.<br>:star:10                |
+| [neverfelly](https://github.com/neverfelly)/**[misaki-render](https://github.com/neverfelly/misaki-render)** | A modular physically-based photorealistic global illumination renderer.<br>:star:8 |
+
+### <span id="cg-courses"> Courses </span>
+
+| Courses                                                      | [(Back to TOC)](#fwg)                                        |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [GAMES101: 现代计算机图形学入门](https://sites.cs.ucsb.edu/~lingqi/teaching/games101.html) | **GAMES101**<br>本课程将全面而系统地介绍现代计算机图形学的四大组成部分：（1）光栅化成像，（2）几何表示，（3）光的传播理论，以及（4）动画与模拟。每个方面都会从基础原理出发讲解到实际应用，并介绍前沿的理论研究。通过本课程，你可以学习到计算机图形学背后的数学和物理知识，并锻炼实际的编程能力。<br>Teaching by [@Lingqi Yan](https://sites.cs.ucsb.edu/~lingqi/). |
-| [TU Wien Rendering/Ray Tracing Course](https://www.cg.tuwien.ac.at/courses/Rendering/VU.SS2018.html)<br>([YouTube](https://www.youtube.com/watch?v=pjc1QAI6zS0&list=PLujxSBD-JXgnGmsn7gEyN28P1DnRZG7qi), [哔哩哔哩](https://www.bilibili.com/video/av39918593)) | **TU WIEN Rendering**<br>This course aims to give an overview of basic and state-of-the-art methods of rendering. Offline methods such as ray and path tracing, photon mapping and many other algorithms are introduced and various refinement are explained. |
+| [TU Wien Rendering/Ray Tracing Course](https://www.cg.tuwien.ac.at/courses/Rendering/VU.SS2018.html)<br>([YouTube](https://www.youtube.com/watch?v=pjc1QAI6zS0&list=PLujxSBD-JXgnGmsn7gEyN28P1DnRZG7qi), [哔哩哔哩](https://www.bilibili.com/video/av39918593)) | **TU WIEN Rendering**<br>This course aims to give an overview of basic and state-of-the-art methods of rendering. Offline methods such as ray and path tracing, photon mapping and many other algorithms are introduced and various refinement are explained.<br>Teaching by [@Károly Zsolnai-Fehér](https://users.cg.tuwien.ac.at/zsolnai/about/). |
 | [Introduction to Computer Graphics](https://sites.cs.ucsb.edu/~lingqi/teaching/cs180.html) | **UCSB CS180**<br>This course is an introduction to the foundations of three-dimensional computer graphics. Topics covered include 2D and 3D transformations, Rasterization based interactive 3D graphics, shading and reflectance models, texture mapping, geometric modeling using Bézier and B-Spline curves, ray tracing, and animation. There will be an emphasis on both the mathematical and geometric aspects of graphics, as well as the ability to write fully functional 3D graphics programs.<br>Teaching by [@Lingqi Yan](https://sites.cs.ucsb.edu/~lingqi/). |
 | [Real-Time High Quality Rendering](http://www.cs.ucsb.edu/~lingqi/teaching/cs291a.html) | **UCSB CS291A**<br>In this course, we will review the history and some of the recent ideas that seek to bridge the gap between realism and interactivity. We will focus on the use of complex lighting and shading within limited computation time. Specifically, topics will cover programmable shaders, real-time shadows, interactive global illumination, image-based rendering, precomputed rendering, adaptive sampling and reconstruction, and real-time ray tracing.<br/>Teaching by [@Lingqi Yan](https://sites.cs.ucsb.edu/~lingqi/). |
 | [Rendering Algorithms (Fall19)](https://canvas.dartmouth.edu/courses/35073) | **Dartmouth**<br>This class focuses on advanced 3D graphics techniques for realistic image synthesis. You will learn how light interacts with objects in the real world, and how to translate the underlying math and physics into practical algorithms for rendering photorealistic images.<br>Teaching by [@Wojciech Jarosz](https://cs.dartmouth.edu/~wjarosz/?tdsourcetag=s_pctim_aiomsg). |
@@ -53,7 +75,7 @@ Hi! You have just found *fun-with-graphics*.
 | [Image Synthesis Techniques](http://graphics.stanford.edu/courses/cs348b/) | **Stanford CS348b**<br>This course provides a broad overview of the theory and practice of making photo-realistic imagery. Rendering is treated as a problem in modeling and simulating the physics of light and appearance. |
 | [Computer Graphics](http://15462.courses.cs.cmu.edu)         | **CMU 15-462/662**                                           |
 | [Computer Graphics - AS 19](https://cgl.ethz.ch/teaching/cg19/home.php) | **ETH**<br>This course covers some of the fundamental concepts of modern computer graphics. The main topics of the course are modeling and rendering. During the course, we will discuss how digital 3D scenes are represented and modeled, and how a realistic image can be generated from a digital representation of a 3D scene.<br>Teaching by [Computer Graphics Laboratory (CGL)](https://cgl.ethz.ch/teaching/cg19/home.php). |
-| [Physically-based Simulation - AS 19](https://cgl.ethz.ch/teaching/simulation19/home.php) | **ETH**<br/>Physically-based simulations are fundamental to many applications of computer graphics, including 3D video games, animated movies and films, or virtual surgery. This course introduces the physical concepts as well as the numerical methods required for simulating deformable objects, fluids, rigid bodies, and other physical systems. The material covered in this lecture ranges from simple mass-spring systems to advanced topics such as finite elements.<br>Teaching by [Computer Graphics Laboratory (CGL)](https://cgl.ethz.ch/teaching/cg19/home.php). |
+| [Physically-based Simulation - AS 19](https://cgl.ethz.ch/teaching/simulation19/home.php) | **ETH**<br>Physically-based simulations are fundamental to many applications of computer graphics, including 3D video games, animated movies and films, or virtual surgery. This course introduces the physical concepts as well as the numerical methods required for simulating deformable objects, fluids, rigid bodies, and other physical systems. The material covered in this lecture ranges from simple mass-spring systems to advanced topics such as finite elements.<br>Teaching by [Computer Graphics Laboratory (CGL)](https://cgl.ethz.ch/teaching/cg19/home.php). |
 | [COS 426 Computer Graphics (Spring19)](https://www.cs.princeton.edu/courses/archive/spring19/cos426/index.php) | **Princeton COS 426**<br>This course will study topics in computer graphics, covering methods in image processing, modeling, rendering, and animation. |
 | [COS 526 Advanced Computer Graphics (Fall16)](https://www.cs.princeton.edu/courses/archive/fall16/cos526/index.php) | **Princeton COS 526**<br>This course will study advanced topics in computer graphics, covering methods in computational photography, geometric modeling, photorealistic rendering, and other topics in computer graphics. |
 | [Physically Based Rendering and Material Appearance Modelling](http://courses.compute.dtu.dk/02941/) | **DTU 02941**<br>This course takes its outset in the appearance of real world materials. The goal is to get as close as possible to replicating the appearance of real materials by computer graphical rendering based on mathematical/physical models. |
@@ -62,11 +84,11 @@ Hi! You have just found *fun-with-graphics*.
 | [Introduction To Computer Graphics](https://cs.brown.edu/courses/cs123/index.shtml) | **Brown CS123**<br>This course offers an in-depth exploration of fundamental concepts in 2D and 3D computer graphics. It introduces 2D raster graphics techniques, including scan conversion, simple image processing, interaction techniques and user interface design. The bulk of the course is devoted to 3D modeling, geometric transformations, and 3D viewing and rendering. A sequence of assignments culminates in a simple geometric modeler and ray tracer. C++ and the graphics library OGL are used throughout the course, as is shader programming on the GPU, taught from the first lab onwards. The final project is typically a small group project spec'd and implemented by the group using shaders to create special effects. |
 | [Introduction To Computer Graphics](http://www.cs.cornell.edu/courses/cs4620/2019fa/) | **Cornell CS4620**<br>The study of creating manipulating, and using visual images in the computer. |
 
-### <span id="head4"> Books</span>
+### <span id="cg-books"> Books</span>
 
-| Books                                                        |                                                              |
+| Books                                                        | [(Back to TOC)](#fwg)                                        |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 《Fundamentals of Computer Graphics, 4th Edition》<br>([豆瓣读书](https://book.douban.com/subject/26868819/)) | 《计算机图形学基础》<br>概述了计算机图形学相关基础，用来了解图形学的大全景不错 |
+| 《Fundamentals of Computer Graphics, 4th Edition》<br>([豆瓣读书](https://book.douban.com/subject/26868819/)) | 《计算机图形学基础》<br>概述了计算机图形学相关基础，可以用来了解图形学的大全景。 |
 | 《Computer Graphics: Principles and Practice (3rd Edition)》<br>([豆瓣读书](https://book.douban.com/subject/30402778/), [book website](cgpp.net)) | 《计算机图形学：原理及实践》<br>In this book, we explain the principles, as well as the mathematics, underlying computer graphics--knowledge that is essential for successful work both now and in the future. Early chapters show how to create 2D and 3D pictures right away, supporting experimentation. Later chapters, covering a broad range of topics, demonstrate more sophisticated approaches. Sections on current computer graphics practice show how to apply given principles in common situations, such as how to approximate an ideal solution on available hardware, or how to represent a data structure more efficiently. Topics are reinforced by exercises, programming problems, and hands-on projects. |
 | 《Real-Time Rendering, 4th Edition》<br>([豆瓣读书](https://book.douban.com/subject/30296179/), [book website](http://www.realtimerendering.com/)) | 「绝世武功的目录」<br>This edition discusses current, practical rendering methods used in games and other applications. It also presents a solid theoretical framework and relevant mathematics for the field of interactive computer graphics, all in an approachable style. New to this edition: new chapter on VR and AR as well as expanded coverage of Visual Appearance, Advanced Shading, Global Illumination, and Curves and Curved Surfaces. |
 | 《Physically Based Rendering: From Theory To Implementation, Third Edition》<br>([豆瓣读书](https://book.douban.com/subject/26736280/), [Read for free](http://www.pbr-book.org/)) | 「年轻人的第一台渲染器」<br>*Physically Based Rendering* describes both the mathematical theory behind a modern photorealistic rendering system as well as its practical implementation. A method known as “literate programming” combines human-readable documentation and source code into a single reference that is specifically designed to aid comprehension. The ideas and software in this book show the reader how to design and employ a full-featured rendering system capable of creating stunning imagery. |
@@ -78,9 +100,9 @@ Hi! You have just found *fun-with-graphics*.
 | 《Ray Tracing: the Rest of Your Life》<br/>([Amazon](https://smile.amazon.com/Ray-Tracing-Next-Week-Minibooks-ebook/dp/B01CO7PQ8C?tag=realtimerenderin), [code](https://github.com/petershirley/raytracingtherestofyourlife/releases), [read for free](https://raytracing.github.io/books/RayTracingTheRestOfYourLife.html)) | Peter Shirley's Ray Tracing 三部曲其三                       |
 | 《Ray Tracing Gems》<br>([Book website](http://raytracinggems.com/), [amazon](https://www.amazon.com/Ray-Tracing-Gems-High-Quality-Real-Time/dp/1484244265?tag=realtimerenderin)) | Nvidia 出品，电子版免费                                      |
 
-### <span id="head5"> Tutorials</span>
+### <span id="cg-tutorials"> Tutorials</span>
 
-| Tutorials                                                    |                                                              |
+| Tutorials                                                    | [(Back to TOC)](#fwg)                                        |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [Nori 2](https://wjakob.github.io/nori/)                     | Nori is a minimalistic ray tracer written in C++. It runs on Windows, Linux, and Mac OS and provides a foundation for the homework assignments in the course [Advanced Computer Graphics](http://rgl.epfl.ch/courses/ACG17) taught at EPFL. |
 | Learn OpenGL<br>([英文原版](), [中文译版](https://learnopengl-cn.github.io/)) |                                                              |
@@ -98,9 +120,9 @@ Hi! You have just found *fun-with-graphics*.
 | [Tiny renderer or how OpenGL works](https://github.com/ssloy/tinyrenderer/wiki) | software rendering in 500 lines of code                      |
 | [Rasterization in One Weekend](https://tayfunkayhan.wordpress.com/2018/11/24/rasterization-in-one-weekend/) | by [@Tayfun Kayhan](https://tayfunkayhan.wordpress.com/)     |
 
-### <span id="head6"> Articles</span>
+### <span id="cg-articles"> Articles</span>
 
-| Articles                                                     |                                                           |
+| Articles                                                     | [(Back to TOC)](#fwg)                                     |
 | ------------------------------------------------------------ | --------------------------------------------------------- |
 | [Path Guiding in Production](https://cgg.mff.cuni.cz/~jirka/path-guiding-in-production/2019/index.html) |                                                           |
 | [《Real-Time Rendering 3rd》提炼总结](https://github.com/QianMo/Real-Time-Rendering-3rd-CN-Summary-Ebook) | by [@毛星云](https://www.zhihu.com/people/mao-xing-yun)   |
@@ -115,9 +137,9 @@ Hi! You have just found *fun-with-graphics*.
 | [基于物理着色：BRDF](https://zhuanlan.zhihu.com/p/21376124)  | by [@Maple](https://www.zhihu.com/people/maple)           |
 | [金属，塑料，傻傻分不清楚](https://zhuanlan.zhihu.com/p/21961722?refer=highwaytographics) | by [@叛逆者](https://www.zhihu.com/people/minmin.gong)    |
 
-### <span id="head7"> Blogs</span>
+### <span id="cg-blogs"> Blogs</span>
 
-| Blogs                                                        |                                                              |
+| Blogs                                                        | [(Back to TOC)](#fwg)                                        |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [Self Shadow](https://blog.selfshadow.com/)                  | [@self_shadow](https://twitter.com/self_shadow) has been collecting [Siggraph courses/papers links](https://blog.selfshadow.com/categories/conference/) for many years:  Especially interesting are the Physically Based Shading in Theory and Practice course presentations. |
 | [INTERPLAY OF LIGHT](https://interplayoflight.wordpress.com/) | "This blog is my scratchpad for graphics techniques I try and experiment with."<br>by [@Kostas Anagnostou](https://twitter.com/KostasAAA) |
@@ -133,9 +155,9 @@ Hi! You have just found *fun-with-graphics*.
 | [HUMUS](http://humus.name/)                                  |                                                              |
 | [Icare3D Blog](https://blog.icare3d.org/)                    |                                                              |
 
-### <span id="head8">Resources pages</span>
+### <span id="cg-resources">Resources pages</span>
 
-| Resources pages                                              |                                                              |
+| Resources pages                                              | [(Back to TOC)](#fwg)                                        |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [Real-Time Rendering Resources](http://www.realtimerendering.com/) | 《Real-Time Rendering》配套网站，相关资源丰富                |
 | [PBRT](https://www.pbrt.org/)                                | 《Physically Based Rendering: From Theory To Implementation》配套网站，相关资源丰富 |
@@ -159,13 +181,13 @@ Hi! You have just found *fun-with-graphics*.
 | [MIT: Most Visited Courses](https://ocw.mit.edu/courses/most-visited-courses/) |                                                              |
 | [Real-time Rendering Blogs](http://svenandersson.se/2014/realtime-rendering-blogs.html) |                                                              |
 
-### <span id="head9"> Researchers</span>
+### <span id="cg-researchers"> Researchers</span>
 
-| Researchers                                                  |                                                              |
+| Researchers                                                  | [(Back to TOC)](#fwg)                                        |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [Kun Xu (徐昆)](https://cg.cs.tsinghua.edu.cn/people/~kun/)  | An associate professor at Graphics and Geometric Computing Group, Tsinghua Univeristy |
 | [Lingqi Yan (闫令琪)](http://www.cs.ucsb.edu/~lingqi/?tdsourcetag=s_pctim_aiomsg#bio) | An Assistant Professor at UC Santa Barbara                   |
-| [Ligang Liu (刘利刚)](http://staff.ustc.edu.cn/~lgliu/)      | A Professor at Graphics & Geometric Computing Laboratory (GCL), school of mathematical sciences USTC.                          |
+| [Ligang Liu (刘利刚)](http://staff.ustc.edu.cn/~lgliu/)      | A Professor at Graphics & Geometric Computing Laboratory (GCL), school of mathematical sciences USTC. |
 | [Wenzel Jakob](https://people.epfl.ch/265226)                | An assistant professor leading the Realistic Graphics Lab at EPFL's School of Computer and Communication Sciences. |
 | [Pradeep Sen](https://web.ece.ucsb.edu/~psen/)               | A Professor at UC Santa Barbara                              |
 | [Thomas Müller](https://tom94.net/index.php)                 | A senior research scientist at NVIDIA Zürich                 |
@@ -175,21 +197,21 @@ Hi! You have just found *fun-with-graphics*.
 | [Benedikt Bitterli](https://benedikt-bitterli.me/index.html) | A PhD at Dartmouth College.                                  |
 | [Morgan McGuire](https://www.cs.williams.edu/~morgan/#courses) | A Professor of Computer Science at Williams College          |
 
-### <span id="head10"> Labs</span>
+### <span id="cg-labs"> Labs</span>
 
-| Labs                                                         |               |
-| ------------------------------------------------------------ | ------------- |
-| [Realistic Graphics Lab](http://rgl.epfl.ch/)                | at EPFL       |
-| [Computer Graphics Lab](https://cgl.ethz.ch/)                | at ETH Zürich |
-| [UCSB MIRAGE Lab](http://graphics.cvc.ucsb.edu/)             | at UCSB       |
-| [Graphics Lab](http://graphics.stanford.edu/)                | at Stanford   |
-| [Princeton ImageX Labs](https://pixl.cs.princeton.edu/)      | at Princeton  |
-| [Carnegie Mellon Graphics Lab](http://graphics.cs.cmu.edu/)  | at CMU        |
-| [MIT Computer Graphics Group](http://graphics.csail.mit.edu/) | at MIT        |
+| Labs                                                         | [(Back to TOC)](#fwg) |
+| ------------------------------------------------------------ | --------------------- |
+| [Realistic Graphics Lab](http://rgl.epfl.ch/)                | at EPFL               |
+| [Computer Graphics Lab](https://cgl.ethz.ch/)                | at ETH Zürich         |
+| [UCSB MIRAGE Lab](http://graphics.cvc.ucsb.edu/)             | at UCSB               |
+| [Graphics Lab](http://graphics.stanford.edu/)                | at Stanford           |
+| [Princeton ImageX Labs](https://pixl.cs.princeton.edu/)      | at Princeton          |
+| [Carnegie Mellon Graphics Lab](http://graphics.cs.cmu.edu/)  | at CMU                |
+| [MIT Computer Graphics Group](http://graphics.csail.mit.edu/) | at MIT                |
 
-### <span id="head11">YouTube Channels</span>
+### <span id="cg-youtube">YouTube Channels</span>
 
-| YouTube Channels                                             |                                                              |
+| YouTube Channels                                             | [(Back to TOC)](#fwg)                                        |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [ChiliTomatoNoodle](https://www.youtube.com/user/ChiliTomatoNoodle) | DirectX & C++ Game Progaramming,<br>3D Programming Fundamentals,<br>... |
 | [The Cherno](https://www.youtube.com/user/TheChernoProject)  | C++,<br/>Game Engine,<br/>...                                |
@@ -197,9 +219,9 @@ Hi! You have just found *fun-with-graphics*.
 | [ACMSIGGRAPH](https://www.youtube.com/channel/UCbaxUExGKrH2zxY4AkY9wCg) |                                                              |
 | [MIT OpenCourseWare](https://www.youtube.com/user/MIT)       |                                                              |
 
-### <span id="head12"> Projects</span>
+### <span id="cg-projects"> Projects</span>
 
-| Projects                                                     |                                                              |
+| Projects                                                     | [(Back to TOC)](#fwg)                                        |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [Mitsuba](http://www.mitsuba-renderer.org/)                  | Mitsuba is a research-oriented rendering system in the style of [PBRT](http://www.pbrt.org/), from which it derives much inspiration. |
 | [Intel® Embree](https://www.embree.org/)                     | Intel® Embree is a collection of high-performance ray tracing kernels, developed at Intel. |
@@ -216,108 +238,108 @@ Hi! You have just found *fun-with-graphics*.
 | [The Tungsten Renderer](https://github.com/tunabrain/tungsten) | Tungsten is a physically based renderer originally written for the [yearly renderer competition at ETH](http://graphics.ethz.ch/teaching/imsynth14/competition/competition.php) |
 | [Scotty3D](https://github.com/cmu462/Scotty3D)               | 3D graphics software for mesh editing, path tracing, and animation |
 
-### <span id="head13"> Websites</span>
+### <span id="cg-websites"> Websites</span>
 
-| Websites                                                     |                                              |
+| Websites                                                     | [(Back to TOC)](#fwg)                        |
 | ------------------------------------------------------------ | -------------------------------------------- |
 | [Shadertoy](https://www.shadertoy.com/)                      | 「构建和分享世界上你最喜欢的着色器并受启发」 |
 | [CSRankings: Computer Science Rankings](http://csrankings.org/#/index?graph&world) |                                              |
 
-## <span id="head14">Game Engines</span>
+## <span id="ge">Game Engines</span>
 
-### <span id="head15"> Tutorials</span>
+### <span id="ge-turorials"> Tutorials</span>
 
-| Tutorials                                                    |                                         |
+| Tutorials                                                    | [(Back to TOC)](#fwg)                   |
 | ------------------------------------------------------------ | --------------------------------------- |
 | Massive UE4 Tutorial Playlist<br/>[Youtube](https://www.youtube.com/watch?v=QMsFxzYzFJ8&list=PLZlv_N0_O1gaCL2XjKluO7N2Pmmw9pvhE) | UnrealEngine 4<br/>官方入门教程，很全面 |
 | [C# and Shader Tutorials for the Unity Engine](https://catlikecoding.com/unity/tutorials/) | Unity3D, Shader                         |
 
-### <span id="head16"> Books</span>
+### <span id="ge-books"> Books</span>
 
-| Books                                                        |                                                              |
+| Books                                                        | [(Back to TOC)](#fwg)                                        |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | 《游戏引擎架构》<br>([豆瓣读书](https://book.douban.com/subject/25815142/), [book website](https://www.gameenginebook.com/)) | 《游戏引擎架构》同时涵盖游戏引擎软件开发的理论及实践，并对多方面的题目进行探讨 |
 | 《Unity Shader 入门精要》<br/>[豆瓣读书](https://book.douban.com/subject/26821639/) | Unity3D, Shader                                              |
 
-### <span id="head17"> Websites</span>
+### <span id="ge-websites"> Websites</span>
 
-| Websites                                                     |                |
-| ------------------------------------------------------------ | -------------- |
-| UnrealEngine的官方视频主页<br>[Youtube](https://www.youtube.com/channel/UCBobmJyzsJ6Ll7UbfhI4iwQ)<br>[优酷](http://i.youku.com/i/UMzE2NDk2OTIw) | UnrealEngine 4 |
-| [Unity 官方中文论坛](http://forum.china.unity3d.com/forum.php) | Unity3D        |
+| Websites                                                     | [(Back to TOC)](#fwg) |
+| ------------------------------------------------------------ | --------------------- |
+| UnrealEngine的官方视频主页<br>[Youtube](https://www.youtube.com/channel/UCBobmJyzsJ6Ll7UbfhI4iwQ)<br>[优酷](http://i.youku.com/i/UMzE2NDk2OTIw) | UnrealEngine 4        |
+| [Unity 官方中文论坛](http://forum.china.unity3d.com/forum.php) | Unity3D               |
 
-## <span id="head18"> Math</span>
+## <span id="math"> Math</span>
 
-### <span id="head19"> Courses</span>
+### <span id="math-courses"> Courses</span>
 
-| Courses                                                      |      |
-| ------------------------------------------------------------ | ---- |
-| 李宏毅綫性代數([Youtube](https://www.youtube.com/watch?v=uUrt8xgdMbs&list=PLJV_el3uVTsNmr39gwbyV-0KjULUsN7fW), [課程主頁](http://speech.ee.ntu.edu.tw/~tlkagk/courses.html)) |      |
-| [可汗学院公开课：概率](http://open.163.com/newview/movie/courseintro?newurl=%2Fspecial%2FKhan%2Fprobability.html) |      |
-| [可汗学院公开课：统计学](http://open.163.com/newview/movie/courseintro?newurl=%2Fspecial%2FKhan%2Fkhstatistics.html) |      |
-| [可汗学院公开课：线性代数](http://open.163.com/newview/movie/courseintro?newurl=%2Fspecial%2FKhan%2Flinearalgebra.html) |      |
-| [MIT Mathematics](https://ocw.mit.edu/courses/mathematics/)  |      |
+| Courses                                                      | [(Back to TOC)](#fwg) |
+| ------------------------------------------------------------ | --------------------- |
+| 李宏毅綫性代數([Youtube](https://www.youtube.com/watch?v=uUrt8xgdMbs&list=PLJV_el3uVTsNmr39gwbyV-0KjULUsN7fW), [課程主頁](http://speech.ee.ntu.edu.tw/~tlkagk/courses.html)) |                       |
+| [可汗学院公开课：概率](http://open.163.com/newview/movie/courseintro?newurl=%2Fspecial%2FKhan%2Fprobability.html) |                       |
+| [可汗学院公开课：统计学](http://open.163.com/newview/movie/courseintro?newurl=%2Fspecial%2FKhan%2Fkhstatistics.html) |                       |
+| [可汗学院公开课：线性代数](http://open.163.com/newview/movie/courseintro?newurl=%2Fspecial%2FKhan%2Flinearalgebra.html) |                       |
+| [MIT Mathematics](https://ocw.mit.edu/courses/mathematics/)  |                       |
 
-### <span id="head20"> Books</span>
+### <span id="math-books"> Books</span>
 
-| Books |      |
-| ----- | ---- |
-|       |      |
+| Books | [(Back to TOC)](#fwg) |
+| ----- | --------------------- |
+|       |                       |
 
-### <span id="head21"> Tutorials</span>
+### <span id="math-tutorials"> Tutorials</span>
 
-| Tutorials                                             |                                                              |
+| Tutorials                                             | [(Back to TOC)](#fwg)                                        |
 | ----------------------------------------------------- | ------------------------------------------------------------ |
 | [Immersive Linear Algebra](http://immersivemath.com/) | "The world's first linear algebra book with fully interactive figures." |
 | [BetterExplained](https://betterexplained.com/)       | "Finally understand math, don't memorize it."                |
 
-## <span id="head22">Machine Learning</span>
+## <span id="ml">Machine Learning</span>
 
-### <span id="head23"> Courses</span>
+### <span id="ml-courses"> Courses</span>
 
-| Courses                                                      |      |
-| ------------------------------------------------------------ | ---- |
-| 李宏毅機器學習系列([Youtube](https://www.youtube.com/channel/UC2ggjtuuWvxrHHHiaDH1dlQ/playlists), [課程主頁](http://speech.ee.ntu.edu.tw/~tlkagk/courses.html)) |      |
-| 吴恩达深度学习专项课程([Coursera](https://www.coursera.org/specializations/deep-learning)) |      |
-| 林轩石机器学习系列([课程主页](https://www.csie.ntu.edu.tw/~htlin/mooc/)) |      |
+| Courses                                                      | [(Back to TOC)](#fwg) |
+| ------------------------------------------------------------ | --------------------- |
+| 李宏毅機器學習系列([Youtube](https://www.youtube.com/channel/UC2ggjtuuWvxrHHHiaDH1dlQ/playlists), [課程主頁](http://speech.ee.ntu.edu.tw/~tlkagk/courses.html)) |                       |
+| 吴恩达深度学习专项课程([Coursera](https://www.coursera.org/specializations/deep-learning)) |                       |
+| 林轩石机器学习系列([课程主页](https://www.csie.ntu.edu.tw/~htlin/mooc/)) |                       |
 
-### <span id="head24"> Books</span>
+### <span id="ml-books"> Books</span>
 
-| Books                                             |      |
-| ------------------------------------------------- | ---- |
-| [《动手学深度学习》](http://zh.d2l.ai/index.html) |      |
+| Books                                             | [(Back to TOC)](#fwg) |
+| ------------------------------------------------- | --------------------- |
+| [《动手学深度学习》](http://zh.d2l.ai/index.html) |                       |
 
-### <span id="head25"> Tutorials</span>
+### <span id="ml-tutorials"> Tutorials</span>
 
-| Tutorials |      |
-| --------- | ---- |
-|           |      |
+| Tutorials | [(Back to TOC)](#fwg) |
+| --------- | --------------------- |
+|           |                       |
 
-## <span id="head26"> Research</span>
+## <span id="research"> Research</span>
 
-### <span id="head27"> Courses</span>
+### <span id="research-courses"> Courses</span>
 
-| Courses                                                      |                                                              |
+| Courses                                                      | [(Back to TOC)](#fwg)                                        |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [Writing in the Sciences](https://www.coursera.org/learn/sciwrite) | This course teaches scientists to become more effective writers, using practical examples and exercises. Topics include: principles of good writing, tricks for writing faster and with less anxiety, the format of a scientific manuscript, peer review, grant writing, ethical issues in scientific publication, and writing for general audiences. |
 | [Academic English](https://www.coursera.org/specializations/academic-english) | Transform Your Writing Skills. Prepare for college-level writing and research in just four courses. |
 
-### <span id="head28"> Books</span>
+### <span id="research-books"> Books</span>
 
-| Books                                                       |                                             |
+| Books                                                       | [(Back to TOC)](#fwg)                       |
 | ----------------------------------------------------------- | ------------------------------------------- |
 | [简单粗暴 LaTeX](https://github.com/wklchris/Note-by-LaTeX) | by [@Chris Wu](https://github.com/wklchris) |
 
-### <span id="head29"> Articles</span>
+### <span id="research-articles"> Articles</span>
 
-| Tools                                                        |                                                              |
+| Tools                                                        | [(Back to TOC)](#fwg)                                        |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [Common mistakes in technical writing](https://cs.dartmouth.edu/~wjarosz/writing.html) | by [@Wojciech Jarosz](https://cs.dartmouth.edu/~wjarosz/index.html) |
 | [Notes on writing](http://people.csail.mit.edu/fredo/PUBLI/writing.pdf) | by [@Fredo Durand,](http://people.csail.mit.edu/fredo/)      |
 
-### <span id="head30"> Tools</span>
+### <span id="research-tools"> Tools</span>
 
-| Tools                                                        |                                                              |
+| Tools                                                        | [(Back to TOC)](#fwg)                                        |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [Purdue Online Writing Lab](https://owl.purdue.edu/owl/purdue_owl.html) |                                                              |
 | [Mathpix](https://mathpix.com/)                              | Extract LaTeX from PDFs or handwritten notes in seconds. Download Snip for desktop and start saving time. |
