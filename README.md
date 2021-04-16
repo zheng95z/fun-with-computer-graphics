@@ -3,7 +3,7 @@
 
 This is a collection of computer graphics related courses, books, tutorials, articles, blogs, resources, researcher homepages, lab homepages, video channels, open source projects, websites, etc.
 
-Here are some useful tips to find what you want:
+Here are some useful tips for you to find what you want:
 
 - You can now find the autogenerate table of contents in the top left corner (provided by GitHub).
 
