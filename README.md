@@ -22,6 +22,7 @@ Here are some useful tips for you to find what you want:
 | [JiayinCao](https://github.com/JiayinCao)/**[SORT](https://github.com/JiayinCao/SORT)** | Simple Open-source Ray Tracer.                               |
 | [AirGuanZ](https://github.com/AirGuanZ)/**[Atrc](https://github.com/AirGuanZ/Atrc)** | Offline rendering lab based on ray tracing.                  |
 | [shiinamiyuki](https://github.com/shiinamiyuki)/**[AkariRender](https://github.com/shiinamiyuki/AkariRender)** | AkariRender is a highly modular CPU/GPU physically based renderer written in C++17. |
+| [shiinamiyuki](https://github.com/shiinamiyuki)/**[minpt](https://github.com/shiinamiyuki/minpt)** | Small yet (almost) complete modern pathtracer.               |
 | [Mike-Leo-Smith](https://github.com/Mike-Leo-Smith)/**[LuisaRender](https://github.com/Mike-Leo-Smith/LuisaRender)** | High-Performance Renderer on GPU.                            |
 | [neverfelly](https://github.com/neverfelly)/**[misaki-render](https://github.com/neverfelly/misaki-render)** | A modular physically-based photorealistic global illumination renderer. |
 | [FaithZL](https://github.com/FaithZL)/**[Paladin](https://github.com/FaithZL/Paladin)** |                                                              |
@@ -41,6 +42,7 @@ Here are some useful tips for you to find what you want:
 | [Rendering Algorithms (Fall19)](https://canvas.dartmouth.edu/courses/35073) | **Dartmouth**<br>This class focuses on advanced 3D graphics techniques for realistic image synthesis. You will learn how light interacts with objects in the real world, and how to translate the underlying math and physics into practical algorithms for rendering photorealistic images.<br>Teaching by [@Wojciech Jarosz](https://cs.dartmouth.edu/~wjarosz/?tdsourcetag=s_pctim_aiomsg). |
 | [Computer Graphics (Fall18)](https://canvas.dartmouth.edu/courses/30008) | **Dartmouth**<br/>This course provides a broad introduction to the mathematical and programmatic foundations of computer graphics, including modeling, rendering (drawing), and animating three-dimensional scenes.<br/>Teaching by [@Wojciech Jarosz](https://cs.dartmouth.edu/~wjarosz/?tdsourcetag=s_pctim_aiomsg). |
 | [Introduction to Computer Graphics and Imaging](https://web.stanford.edu/class/cs148/index.html) | **Stanford CS148**<br>This is the introductory prerequisite course in the computer graphics sequence which introduces students to the technical concepts behind creating synthetic computer generated images. |
+| [Interactive Computer Graphics](http://cs248.stanford.edu/)  | **Stanford CS248**<br/>This course provides a comprehensive introduction to computer graphics, focusing on fundamental concepts and techniques, as well as their cross-cutting relationship to multiple problem domains in interactive graphics (such as rendering, animation, geometry, image processing). |
 | [Image Synthesis Techniques](http://graphics.stanford.edu/courses/cs348b/) | **Stanford CS348b**<br>This course provides a broad overview of the theory and practice of making photo-realistic imagery. Rendering is treated as a problem in modeling and simulating the physics of light and appearance. |
 | [Computer Graphics](http://15462.courses.cs.cmu.edu)         | **CMU 15-462/662**<br>This course provides a comprehensive introduction to computer graphics. Focuses on fundamental concepts and techniques, and their cross-cutting relationship to multiple problem domains in graphics (rendering, animation, geometry, imaging). |
 | [Computer Graphics - AS 19](https://cgl.ethz.ch/teaching/cg19/home.php) | **ETH**<br>This course covers some of the fundamental concepts of modern computer graphics. The main topics of the course are modeling and rendering. During the course, we will discuss how digital 3D scenes are represented and modeled, and how a realistic image can be generated from a digital representation of a 3D scene.<br>Teaching by [Computer Graphics Laboratory (CGL)](https://cgl.ethz.ch/teaching/cg19/home.php). |
@@ -52,6 +54,14 @@ Here are some useful tips for you to find what you want:
 | [Computer Graphics and Imaging](https://cs184.eecs.berkeley.edu/sp19) | **Berkeley cs184/284a**<br>This course provides a broad introduction to the fundamentals of computer graphics. The main areas covered are modeling, rendering, animation and imaging. Topics include 2D and 3D transformations, drawing to raster displays, sampling, texturing, antialiasing, geometric modeling, ray tracing and global illumination, animation, cameras, image processing and computational imaging. There will be an emphasis on mathematical and geometric aspects of graphics, and the ability to write complete 3D graphics programs. |
 | [Introduction To Computer Graphics](https://cs.brown.edu/courses/cs123/index.shtml) | **Brown CS123**<br>This course offers an in-depth exploration of fundamental concepts in 2D and 3D computer graphics. It introduces 2D raster graphics techniques, including scan conversion, simple image processing, interaction techniques and user interface design. The bulk of the course is devoted to 3D modeling, geometric transformations, and 3D viewing and rendering. A sequence of assignments culminates in a simple geometric modeler and ray tracer. C++ and the graphics library OGL are used throughout the course, as is shader programming on the GPU, taught from the first lab onwards. The final project is typically a small group project spec'd and implemented by the group using shaders to create special effects. |
 | [Introduction To Computer Graphics](http://www.cs.cornell.edu/courses/cs4620/2019fa/) | **Cornell CS4620**<br>The study of creating manipulating, and using visual images in the computer. |
+
+### SIGGRAPH Courses
+
+| SIGGRAPH Courses                                             |                                                              |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [Path tracing in production](https://jo.dreggn.org/path-tracing-in-production/) | This is the web page for the SIGGRAPH courses on path tracing in production. |
+|                                                              |                                                              |
+|                                                              |                                                              |
 
 ### Books
 
@@ -142,29 +152,32 @@ Here are some useful tips for you to find what you want:
 
 | Researchers                                                  |                                                              |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [Kun Xu (徐昆)](https://cg.cs.tsinghua.edu.cn/people/~kun/)  | An associate professor at Graphics and Geometric Computing Group, Tsinghua University. |
-| [Lingqi Yan (闫令琪)](http://www.cs.ucsb.edu/~lingqi/?tdsourcetag=s_pctim_aiomsg#bio) | An Assistant Professor at UC Santa Barbara.                  |
+| [Benedikt Bitterli](https://benedikt-bitterli.me/index.html) | A PhD at Dartmouth College.                                  |
+| [Kun Xu (徐昆)](https://cg.cs.tsinghua.edu.cn/people/~kun/)  | Associate professor at Graphics and Geometric Computing Group, Tsinghua University. |
+| [Lingqi Yan (闫令琪)](http://www.cs.ucsb.edu/~lingqi/?tdsourcetag=s_pctim_aiomsg#bio) | Assistant Professor at UC Santa Barbara.                     |
 | [Ligang Liu (刘利刚)](http://staff.ustc.edu.cn/~lgliu/)      | A Professor at Graphics & Geometric Computing Laboratory (GCL), school of mathematical sciences USTC. |
-| [Wenzel Jakob](https://people.epfl.ch/265226)                | An assistant professor leading the Realistic Graphics Lab at EPFL's School of Computer and Communication Sciences. |
+| [Matt Pharr](https://pharr.org/matt/)                        | A research scientist at NVIDIA Research.                     |
+| [Morgan McGuire](https://www.cs.williams.edu/~morgan/#courses) | A Professor of Computer Science at Williams College.         |
 | [Pradeep Sen](https://web.ece.ucsb.edu/~psen/)               | A Professor at UC Santa Barbara.                             |
+| [Ravi Ramamoorthi](http://cseweb.ucsd.edu/~ravir/)           | Professor at UC San Diego.                                   |
 | [Thomas Müller](https://tom94.net/index.php)                 | A senior research scientist at NVIDIA Zürich.                |
 | [Toshiya Hachisuka](https://www.ci.i.u-tokyo.ac.jp/~hachisuka/) | An Associate Professor at The University of Tokyo.           |
-| [Matt Pharr](https://pharr.org/matt/)                        | A research scientist at NVIDIA Research.                     |
+| [Wenzel Jakob](https://people.epfl.ch/265226)                | An assistant professor leading the Realistic Graphics Lab at EPFL's School of Computer and Communication Sciences. |
 | [Wojciech Jarosz](https://cs.dartmouth.edu/~wjarosz/)        | An Assistant Professor at Dartmouth College.                 |
-| [Benedikt Bitterli](https://benedikt-bitterli.me/index.html) | A PhD at Dartmouth College.                                  |
-| [Morgan McGuire](https://www.cs.williams.edu/~morgan/#courses) | A Professor of Computer Science at Williams College.         |
 
 ###  Labs
 
-| Labs                                                         |               |
-| ------------------------------------------------------------ | ------------- |
-| [Realistic Graphics Lab](http://rgl.epfl.ch/)                | at EPFL       |
-| [Computer Graphics Lab](https://cgl.ethz.ch/)                | at ETH Zürich |
-| [UCSB MIRAGE Lab](http://graphics.cvc.ucsb.edu/)             | at UCSB       |
-| [Graphics Lab](http://graphics.stanford.edu/)                | at Stanford   |
-| [Princeton ImageX Labs](https://pixl.cs.princeton.edu/)      | at Princeton  |
-| [Carnegie Mellon Graphics Lab](http://graphics.cs.cmu.edu/)  | at CMU        |
-| [MIT Computer Graphics Group](http://graphics.csail.mit.edu/) | at MIT        |
+| Labs                                                         |                   |
+| ------------------------------------------------------------ | ----------------- |
+| [Graphics & Geometric Computing Group](https://cg.cs.tsinghua.edu.cn/) | at Tsinghua Univ. |
+| [Realistic Graphics Lab](http://rgl.epfl.ch/)                | at EPFL           |
+| [Computer Graphics Lab](https://cgl.ethz.ch/)                | at ETH Zürich     |
+| [UCSB MIRAGE Lab](http://graphics.cvc.ucsb.edu/)             | at UCSB           |
+| [Graphics Lab](http://graphics.stanford.edu/)                | at Stanford       |
+| [Princeton ImageX Labs](https://pixl.cs.princeton.edu/)      | at Princeton      |
+| [Carnegie Mellon Graphics Lab](http://graphics.cs.cmu.edu/)  | at CMU            |
+| [MIT Computer Graphics Group](http://graphics.csail.mit.edu/) | at MIT            |
+| [Center for Visual Computing](http://visualcomputing.ucsd.edu/) | at UCSD           |
 
 ### Video Channels
 
@@ -198,101 +211,11 @@ Here are some useful tips for you to find what you want:
 | [Shadertoy](https://www.shadertoy.com/)                      |      |
 | [CSRankings: Computer Science Rankings](http://csrankings.org/#/index?graph&world) |      |
 
-## Game Engines
+### Essential Mathematics
 
-### Tutorials
+| Essential Mathematics                                        |                                              |
+| ------------------------------------------------------------ | -------------------------------------------- |
+| [Probability Theory for Physically Based Rendering Part 1](https://jacco.ompf2.com/2019/12/11/probability-theory-for-physically-based-rendering/), [Part 2](https://jacco.ompf2.com/2019/12/13/probability-theory-for-physically-based-rendering-part-2/) | by [Jacco Bikker.](https://jacco.ompf2.com/) |
+|                                                              |                                              |
+|                                                              |                                              |
 
-| Tutorials                                                    |                                         |
-| ------------------------------------------------------------ | --------------------------------------- |
-| Massive UE4 Tutorial Playlist<br/>[Youtube](https://www.youtube.com/watch?v=QMsFxzYzFJ8&list=PLZlv_N0_O1gaCL2XjKluO7N2Pmmw9pvhE) | UnrealEngine 4<br/>官方入门教程，很全面 |
-| [C# and Shader Tutorials for the Unity Engine](https://catlikecoding.com/unity/tutorials/) | Unity3D, Shader                         |
-
-### Books
-
-| Books                                                        |                                                              |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 《游戏引擎架构》<br>([豆瓣读书](https://book.douban.com/subject/25815142/), [book website](https://www.gameenginebook.com/)) | 《游戏引擎架构》同时涵盖游戏引擎软件开发的理论及实践，并对多方面的题目进行探讨 |
-| 《Unity Shader 入门精要》<br/>[豆瓣读书](https://book.douban.com/subject/26821639/) | Unity3D, Shader                                              |
-
-###  Websites
-
-| Websites                                                     |                |
-| ------------------------------------------------------------ | -------------- |
-| UnrealEngine的官方视频主页<br>[Youtube](https://www.youtube.com/channel/UCBobmJyzsJ6Ll7UbfhI4iwQ)<br>[优酷](http://i.youku.com/i/UMzE2NDk2OTIw) | UnrealEngine 4 |
-| [Unity 官方中文论坛](http://forum.china.unity3d.com/forum.php) | Unity3D        |
-
-## Math
-
-### Courses
-
-| Courses                                                      |      |
-| ------------------------------------------------------------ | ---- |
-| 李宏毅綫性代數([Youtube](https://www.youtube.com/watch?v=uUrt8xgdMbs&list=PLJV_el3uVTsNmr39gwbyV-0KjULUsN7fW), [課程主頁](http://speech.ee.ntu.edu.tw/~tlkagk/courses.html)) |      |
-| [可汗学院公开课：概率](http://open.163.com/newview/movie/courseintro?newurl=%2Fspecial%2FKhan%2Fprobability.html) |      |
-| [可汗学院公开课：统计学](http://open.163.com/newview/movie/courseintro?newurl=%2Fspecial%2FKhan%2Fkhstatistics.html) |      |
-| [可汗学院公开课：线性代数](http://open.163.com/newview/movie/courseintro?newurl=%2Fspecial%2FKhan%2Flinearalgebra.html) |      |
-| [MIT Mathematics](https://ocw.mit.edu/courses/mathematics/)  |      |
-
-### Books
-
-| Books |      |
-| ----- | ---- |
-|       |      |
-
-### Tutorials
-
-| Tutorials                                             |                                                              |
-| ----------------------------------------------------- | ------------------------------------------------------------ |
-| [Immersive Linear Algebra](http://immersivemath.com/) | "The world's first linear algebra book with fully interactive figures." |
-| [BetterExplained](https://betterexplained.com/)       | "Finally understand math, don't memorize it."                |
-
-## Machine Learning
-
-### Courses
-
-| Courses                                                      |      |
-| ------------------------------------------------------------ | ---- |
-| 李宏毅機器學習系列([Youtube](https://www.youtube.com/channel/UC2ggjtuuWvxrHHHiaDH1dlQ/playlists), [課程主頁](http://speech.ee.ntu.edu.tw/~tlkagk/courses.html)) |      |
-| 吴恩达深度学习专项课程([Coursera](https://www.coursera.org/specializations/deep-learning)) |      |
-| 林轩石机器学习系列([课程主页](https://www.csie.ntu.edu.tw/~htlin/mooc/)) |      |
-
-### Books
-
-| Books                                             |      |
-| ------------------------------------------------- | ---- |
-| [《动手学深度学习》](http://zh.d2l.ai/index.html) |      |
-
-###  Tutorials
-
-| Tutorials |      |
-| --------- | ---- |
-|           |      |
-
-##  Research
-
-###  Courses
-
-| Courses                                                      |                                                              |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [Writing in the Sciences](https://www.coursera.org/learn/sciwrite) | This course teaches scientists to become more effective writers, using practical examples and exercises. Topics include: principles of good writing, tricks for writing faster and with less anxiety, the format of a scientific manuscript, peer review, grant writing, ethical issues in scientific publication, and writing for general audiences. |
-| [Academic English](https://www.coursera.org/specializations/academic-english) | Transform Your Writing Skills. Prepare for college-level writing and research in just four courses. |
-
-###  Books
-
-| Books                                                       |                                             |
-| ----------------------------------------------------------- | ------------------------------------------- |
-| [简单粗暴 LaTeX](https://github.com/wklchris/Note-by-LaTeX) | by [@Chris Wu](https://github.com/wklchris) |
-
-### Articles
-
-| Tools                                                        |                                                              |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [Common mistakes in technical writing](https://cs.dartmouth.edu/~wjarosz/writing.html) | by [@Wojciech Jarosz](https://cs.dartmouth.edu/~wjarosz/index.html) |
-| [Notes on writing](http://people.csail.mit.edu/fredo/PUBLI/writing.pdf) | by [@Fredo Durand,](http://people.csail.mit.edu/fredo/)      |
-
-### Tools
-
-| Tools                                                        |                                                              |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [Purdue Online Writing Lab](https://owl.purdue.edu/owl/purdue_owl.html) |                                                              |
-| [Mathpix](https://mathpix.com/)                              | Extract LaTeX from PDFs or handwritten notes in seconds. Download Snip for desktop and start saving time. |
