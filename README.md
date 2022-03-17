@@ -74,7 +74,7 @@ Here are some useful tips for you to find what you want:
 | Physically Based Rendering: From Theory To Implementation, Third Edition<br>([read for free](http://www.pbr-book.org/)) | *Physically Based Rendering* describes both the mathematical theory behind a modern photorealistic rendering system as well as its practical implementation. A method known as “literate programming” combines human-readable documentation and source code into a single reference that is specifically designed to aid comprehension. The ideas and software in this book show the reader how to design and employ a full-featured rendering system capable of creating stunning imagery. |
 | Robust Monte Carlo Methods for Light Transport Simulation<br>([thesis website](https://graphics.stanford.edu/papers/veach_thesis/)) | Eric Veach. PhD Thesis, Stanford University, 1997<br>Nearly 20 years later, this monster thesis is *still* relevant when it comes to developing rendering algorithms. Introduces Monte Carlo rendering methods, multiple importance sampling, bidirectional path tracing, Metropolis Light Transport |
 | Advanced Global Illumination<br>([authors' site](http://graphics.cs.kuleuven.be/publications/AGI2E/index.html), [Google Books sample](https://books.google.com/books?id=TB1jDAAAQBAJ&printsec=frontcover)) | This book provides the reader with a fundamental understanding of global illumination algorithms. It discusses a broad class of algorithms for realistic image synthesis and introduces a theoretical basis for the algorithms presented. |
-| 《Ray Tracing in One Weekend》<br>([read for free](https://raytracing.github.io/)) | [Peter Shirley](https://twitter.com/Peter_shirley)'s *The Ray Tracing in One Weekend* series of books |
+| 《Ray Tracing in One Weekend》series <br>([read for free](https://raytracing.github.io/)) | [Peter Shirley](https://twitter.com/Peter_shirley)'s *The Ray Tracing in One Weekend* series of books |
 | 《Ray Tracing Gems》<br>([book website](http://raytracinggems.com/)) | This book is a collection of articles focused on ray tracing techniques for serious practitioners. Like other "gems" books, it focuses on subjects commonly considered too advanced for introductory texts, yet rarely addressed by research papers. |
 
 ### Tutorials
@@ -103,10 +103,8 @@ Here are some useful tips for you to find what you want:
 | [系统的学习计算机图形学，有哪些不同阶段的书籍的推荐？](https://www.zhihu.com/question/26720808) | Q&A                                                      |
 | [现阶段应该怎么学习计算机图形学呢？](https://www.zhihu.com/question/26341836) | Q&A                                                      |
 | [光线追踪与实时渲染的未来](https://zhuanlan.zhihu.com/p/34851503) | by [文刀秋二](https://www.zhihu.com/people/edliu)        |
-| [基于摄影参数渲染](https://zhuanlan.zhihu.com/p/23827065)    | by [文刀秋二](https://www.zhihu.com/people/edliu)        |
 | 基于物理着色<br>([1](https://zhuanlan.zhihu.com/p/20091064), [2](https://zhuanlan.zhihu.com/p/20119162), [3](https://zhuanlan.zhihu.com/p/20122884), [4](https://zhuanlan.zhihu.com/p/21247702)) | by [文刀秋二](https://www.zhihu.com/people/edliu)        |
-| [How to Start Learning Computer Graphics Programming](https://erkaman.github.io/posts/beginner_computer_graphics.html)<br>([中译](https://zhuanlan.zhihu.com/p/55518151)) | by [Eric Arnebäck](https://erkaman.github.io/index.html) |
-| [金属，塑料，傻傻分不清楚](https://zhuanlan.zhihu.com/p/21961722?refer=highwaytographics) | by [叛逆者](https://www.zhihu.com/people/minmin.gong)    |
+| [How to Start Learning Computer Graphics Programming](https://erkaman.github.io/posts/beginner_computer_graphics.html)<br>([Chinese](https://zhuanlan.zhihu.com/p/55518151)) | by [Eric Arnebäck](https://erkaman.github.io/index.html) |
 
 ### Blogs
 
@@ -146,7 +144,6 @@ Here are some useful tips for you to find what you want:
 | [eug/awesome-opengl](https://github.com/eug/awesome-opengl)  | A curated list of awesome OpenGL libraries, debuggers and resources |
 | [vinjn/awesome-vulkan](https://github.com/vinjn/awesome-vulkan) | A curated list of awesome Vulkan libraries, debuggers and resources. Inspired by [awesome-opengl](https://github.com/eug/awesome-opengl) and other awesome-... stuff. |
 | [ericjang/awesome-graphics](https://github.com/ericjang/awesome-graphics) | This is a curated list of computer graphics tutorials and resources. |
-| [MIT: Most Visited Courses](https://ocw.mit.edu/courses/most-visited-courses/) |                                                              |
 | [Real-time Rendering Blogs](http://svenandersson.se/2014/realtime-rendering-blogs.html) |                                                              |
 
 ### Researchers
@@ -199,7 +196,6 @@ Here are some useful tips for you to find what you want:
 | [TAICHI](http://taichi.graphics/)                            | TAICHI: Open-source computer graphics library                |
 | [Intel® Embree](https://embree.github.io/)                   | Intel® Embree is a collection of high-performance ray tracing kernels, developed at Intel |
 | [MERL BRDF Database](http://www.merl.com/brdf/)              | The MERL BRDF database contains reflectance functions of 100 different materials |
-| [minpt](https://github.com/hi2p-perim/minpt)                 | A path tracer in 300 lines of C++                            |
 | [yocto-gl](https://github.com/xelatihy/yocto-gl)             | Tiny C++ Libraries for Data-Driven Physically-based Graphics |
 | [id-Software](https://github.com/id-Software)                | id-Software公司的所有游戏的开源代码                          |
 | [WebGL Fluid Simulation](https://paveldogreat.github.io/WebGL-Fluid-Simulation/) |                                                              |
