@@ -11,7 +11,7 @@ Here are some useful tips for you to find what you want:
 
 ### Open-source Renderers
 
-| Shiny Renderers                                              |                                                              |
+| Open-source Renderers                                        |                                                              |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [mmp](https://github.com/mmp)/**[pbrt-v3](https://github.com/mmp/pbrt-v3)** | The renderer described in the third edition of "Physically Based Rendering: From Theory To Implementation", by Matt Pharr, Wenzel Jakob, and Greg Humphreys. |
 | [mmp](https://github.com/mmp)/**[pbrt-v4](https://github.com/mmp/pbrt-v4)** | This is an early release of pbrt-v4, the rendering system that will be described in the (eventually) forthcoming fourth edition of *Physically Based Rendering: From Theory to Implementation*. |
@@ -82,35 +82,43 @@ Here are some useful tips for you to find what you want:
 | Tutorials                                                    |                                                              |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [Nori 2](https://wjakob.github.io/nori/)                     | Nori is a minimalistic ray tracer written in C++. It runs on Windows, Linux, and Mac OS and provides a foundation for the homework assignments in the course [Advanced Computer Graphics](http://rgl.epfl.ch/courses/ACG17) taught at EPFL. |
-| Learn OpenGL<br>([English](https://learnopengl.com/), [Chinese](https://learnopengl-cn.github.io/)) | The aim of LearnOpenGL is to show you all there is to modern OpenGL in an easy-to-understand fashion with clear examples, while also providing a useful reference for later studies. |
-| [Learn Vulkan](https://learnvulkan.com/book/)                |                                                              |
+| [The Graphics Codex](http://graphicscodex.com/)              | by [Morgan McGuire](https://twitter.com/CasualEffects)       |
 | [Scratchapixel 2.0](http://www.scratchapixel.com/index.php)  | 32 lessons, 166 chapters, 450,000 words, C++ source code     |
+| [Windows渲染引擎入门](https://www.zhihu.com/column/c_1465096004047822849) | by [MaxwellGeng](https://www.zhihu.com/people/maxwellgeng)   |
+| [Vulkan 渲染器开发实战小师班](https://zhuanlan.zhihu.com/p/478021889) | by [SaeruHikari](https://www.zhihu.com/people/SaeruHikari)   |
+| [Learn Vulkan](https://learnvulkan.com/book/)                |                                                              |
+| [Vulkan Tutorial](https://vulkan-tutorial.com/)              |                                                              |
+| Learn OpenGL<br>([English](https://learnopengl.com/), [Chinese](https://learnopengl-cn.github.io/)) | The aim of LearnOpenGL is to show you all there is to modern OpenGL in an easy-to-understand fashion with clear examples, while also providing a useful reference for later studies. |
 | [Joey de Vries OpenGL Tutorials](http://learnopengl.com/)    | OpenGL                                                       |
 | [Pixar in a Box: Rendering](https://www.khanacademy.org/partner-content/pixar/rendering) | by Pixar                                                     |
-| [Vulkan Tutorial](https://vulkan-tutorial.com/)              |                                                              |
 | [The Book of Shaders](https://thebookofshaders.com/)         |                                                              |
 | [3d-game-shaders-for-beginners](https://github.com/lettier/3d-game-shaders-for-beginners) |                                                              |
-| [The Graphics Codex](http://graphicscodex.com/)              | by [Morgan McGuire](https://twitter.com/CasualEffects)       |
 | [Daily Pathtracer](http://aras-p.info/blog/2018/03/28/Daily-Pathtracer-Part-0-Intro/) | by [Aras Pranckevičius](http://aras-p.info/)                 |
 | [Tiny renderer or how OpenGL works](https://github.com/ssloy/tinyrenderer/wiki) | software rendering in 500 lines of code                      |
 | [Rasterization in One Weekend](https://tayfunkayhan.wordpress.com/2018/11/24/rasterization-in-one-weekend/) | by [Tayfun Kayhan](https://tayfunkayhan.wordpress.com/)      |
 
 ### Articles
 
-| Articles                                                     |                                                          |
-| ------------------------------------------------------------ | -------------------------------------------------------- |
-| [什么是计算机图形学](http://staff.ustc.edu.cn/~lgliu/Resources/CG/What_is_CG.htm)<br>[什么是深度学习？](http://staff.ustc.edu.cn/~lgliu/Resources/DL/What_is_DeepLearning.html)<br/>[数学在计算机图形学中的应用](http://staff.ustc.edu.cn/~lgliu/Resources/SummerSchool/USTC-summer-school.html) | by [刘利刚](http://staff.ustc.edu.cn/~lgliu)             |
-| [系统的学习计算机图形学，有哪些不同阶段的书籍的推荐？](https://www.zhihu.com/question/26720808) | Q&A                                                      |
-| [现阶段应该怎么学习计算机图形学呢？](https://www.zhihu.com/question/26341836) | Q&A                                                      |
-| [光线追踪与实时渲染的未来](https://zhuanlan.zhihu.com/p/34851503) | by [文刀秋二](https://www.zhihu.com/people/edliu)        |
-| 基于物理着色<br>([1](https://zhuanlan.zhihu.com/p/20091064), [2](https://zhuanlan.zhihu.com/p/20119162), [3](https://zhuanlan.zhihu.com/p/20122884), [4](https://zhuanlan.zhihu.com/p/21247702)) | by [文刀秋二](https://www.zhihu.com/people/edliu)        |
-| [How to Start Learning Computer Graphics Programming](https://erkaman.github.io/posts/beginner_computer_graphics.html)<br>([Chinese](https://zhuanlan.zhihu.com/p/55518151)) | by [Eric Arnebäck](https://erkaman.github.io/index.html) |
+| Articles                                                     |                                                              |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [什么是计算机图形学](http://staff.ustc.edu.cn/~lgliu/Resources/CG/What_is_CG.htm)<br>[什么是深度学习？](http://staff.ustc.edu.cn/~lgliu/Resources/DL/What_is_DeepLearning.html)<br/>[数学在计算机图形学中的应用](http://staff.ustc.edu.cn/~lgliu/Resources/SummerSchool/USTC-summer-school.html) | by [刘利刚](http://staff.ustc.edu.cn/~lgliu)                 |
+| [系统的学习计算机图形学，有哪些不同阶段的书籍的推荐？](https://www.zhihu.com/question/26720808) | Q&A                                                          |
+| [现阶段应该怎么学习计算机图形学呢？](https://www.zhihu.com/question/26341836) | Q&A                                                          |
+| [光线追踪与实时渲染的未来](https://zhuanlan.zhihu.com/p/34851503) | by [Edward Liu](http://behindthepixels.io/about/)            |
+| 基于物理着色<br>([1](https://zhuanlan.zhihu.com/p/20091064), [2](https://zhuanlan.zhihu.com/p/20119162), [3](https://zhuanlan.zhihu.com/p/20122884), [4](https://zhuanlan.zhihu.com/p/21247702)) | by [Edward Liu](http://behindthepixels.io/about/)            |
+| [How to Start Learning Computer Graphics Programming](https://erkaman.github.io/posts/beginner_computer_graphics.html)<br>([Chinese](https://zhuanlan.zhihu.com/p/55518151)) | by [Eric Arnebäck](https://erkaman.github.io/index.html)     |
+| [Finding Your Home in Game Graphics Programming](https://alextardif.com/LearningGraphics.html) | by Alex Tardif                                               |
+| [Bidirectional Path Tracing](https://rendering-memo.blogspot.com/2016/03/bidirectional-path-tracing-1-kickoff.html) series | by [Wei-Feng Wayne Huang](https://www.blogger.com/profile/01056048230170636241) |
+| [BSSRDF Importance Sampling](https://rendering-memo.blogspot.com/2015/01/bssrdf-importance-sampling-1-kickoff.html) series | by [Wei-Feng Wayne Huang](https://www.blogger.com/profile/01056048230170636241) |
 
 ### Blogs
 
 | Blogs                                                        | [(Back to TOC)](#fwg)                                        |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [Self Shadow](https://blog.selfshadow.com/)                  | [@self_shadow](https://twitter.com/self_shadow) has been collecting [Siggraph courses/papers links](https://blog.selfshadow.com/categories/conference/) for many years:  Especially interesting are the Physically Based Shading in Theory and Practice course presentations. |
+| [A Graphics Guy's Note](https://agraphicsguynotes.com/)      | Jiayin Cao's some random notes about computer graphics.      |
+| [Rendering Memo](https://rendering-memo.blogspot.com/)       | [Wei-Feng Wayne Huang](https://www.blogger.com/profile/01056048230170636241), Walt Disney Animation Studio rendering software developer. |
+| [Self Shadow](https://blog.selfshadow.com/)                  | Walt Disney Animation Studio rendering software developer. I worked on few film production renderers[@self_shadow](https://twitter.com/self_shadow) has been collecting [Siggraph courses/papers links](https://blog.selfshadow.com/categories/conference/) for many years:  Especially interesting are the Physically Based Shading in Theory and Practice course presentations. |
+| [Code & Visuals](https://blog.yiningkarlli.com/)             | Yining Karl Li, computer graphics senior software engineer at [Walt Disney Animation Studios](http://www.disneyanimation.com/) working on Disney's in-house production physically based renderer, [Hyperion.](https://www.disneyanimation.com/technology/hyperion) |
 | [INTERPLAY OF LIGHT](https://interplayoflight.wordpress.com/) | "This blog is my scratchpad for graphics techniques I try and experiment with."<br>by [@Kostas Anagnostou](https://twitter.com/KostasAAA) |
 | [Alan Zucconi](https://www.alanzucconi.com/)                 | author of the book *Unity 2018 Shaders and Effects Cookbook* |
 | [Linden Reid](https://lindenreid.wordpress.com/)             | Procedural geometry & graphics tutorials<br>A game developer at Blizzard |
@@ -168,10 +176,13 @@ Here are some useful tips for you to find what you want:
 | Labs                                                         |                   |
 | ------------------------------------------------------------ | ----------------- |
 | [Graphics & Geometric Computing Group](https://cg.cs.tsinghua.edu.cn/) | at Tsinghua Univ. |
+| [UCSB MIRAGE Lab](http://graphics.cvc.ucsb.edu/)             | at UCSB           |
+| [Visual Computing Lab](http://vcl.cs.dartmouth.edu/#about)   | at Dartmouth      |
+| [Utah Graphics Lab](https://graphics.cs.utah.edu/#u)         | at Utah           |
 | [Realistic Graphics Lab](http://rgl.epfl.ch/)                | at EPFL           |
 | [Computer Graphics Lab](https://cgl.ethz.ch/)                | at ETH Zürich     |
-| [UCSB MIRAGE Lab](http://graphics.cvc.ucsb.edu/)             | at UCSB           |
 | [Graphics Lab](http://graphics.stanford.edu/)                | at Stanford       |
+| [Cornell Graphics and Vision Group](https://rgb.cs.cornell.edu/) | at Cornell        |
 | [Princeton ImageX Labs](https://pixl.cs.princeton.edu/)      | at Princeton      |
 | [Carnegie Mellon Graphics Lab](http://graphics.cs.cmu.edu/)  | at CMU            |
 | [MIT Computer Graphics Group](http://graphics.csail.mit.edu/) | at MIT            |
@@ -213,6 +224,6 @@ Here are some useful tips for you to find what you want:
 | Essential Mathematics                                        |                                              |
 | ------------------------------------------------------------ | -------------------------------------------- |
 | [Probability Theory for Physically Based Rendering Part 1](https://jacco.ompf2.com/2019/12/11/probability-theory-for-physically-based-rendering/), [Part 2](https://jacco.ompf2.com/2019/12/13/probability-theory-for-physically-based-rendering-part-2/) | by [Jacco Bikker.](https://jacco.ompf2.com/) |
-|                                                              |                                              |
+| [Immersive linear Algebra](http://immersivemath.com/ila/index.html) |                                              |
 |                                                              |                                              |
 
